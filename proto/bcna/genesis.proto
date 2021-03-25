@@ -1,0 +1,14 @@
+syntax = "proto3";
+package BitCannaGlobal.bcna.bcna;
+
+// this line is used by starport scaffolding # genesis/proto/import
+import "bcna/bitcannaid.proto";
+
+option go_package = "github.com/BitCannaGlobal/bcna/x/bcna/types";
+
+// GenesisState defines the capability module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+		repeated Bitcannaid bitcannaidList = 1; // this line is used by starport scaffolding # genesis/proto/stateField
+}
+
