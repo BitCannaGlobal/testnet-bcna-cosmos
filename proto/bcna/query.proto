@@ -6,7 +6,7 @@ import "cosmos/base/query/v1beta1/pagination.proto";
 // this line is used by starport scaffolding # 1
 import "bcna/bitcannaid.proto";
 
-option go_package = "github.com/BitCannaGlobal/bcna/x/bcna/types";
+option go_package = "github.com/BitCannaGlobal/testnet-bcna-cosmos/x/bcna/types";
 
 // Query defines the gRPC querier service.
 service Query {
@@ -15,7 +15,7 @@ service Query {
 		option (google.api.http).get = "/BitCannaGlobal/bcna/bcna/bitcannaid/{id}";
 	}
 	rpc BitcannaidAll(QueryAllBitcannaidRequest) returns (QueryAllBitcannaidResponse) {
-		option (google.api.http).get = "/BitCannaGlobal/bcna/bcna/bitcannaid";
+		option (google.api.http).get = "/BitCannaGlobal/testnet-bcna-cosmos/bcna/bitcannaid";
 	}
 
 }
