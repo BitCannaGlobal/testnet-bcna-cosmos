@@ -11,10 +11,10 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/BitCannaGlobal/bcna/x/bcna/client/cli"
-	"github.com/BitCannaGlobal/bcna/x/bcna/client/rest"
-	"github.com/BitCannaGlobal/bcna/x/bcna/keeper"
-	"github.com/BitCannaGlobal/bcna/x/bcna/types"
+	"github.com/BitCannaGlobal/testnet-bcna-cosmos/x/bcna/client/cli"
+	"github.com/BitCannaGlobal/testnet-bcna-cosmos/x/bcna/client/rest"
+	"github.com/BitCannaGlobal/testnet-bcna-cosmos/x/bcna/keeper"
+	"github.com/BitCannaGlobal/testnet-bcna-cosmos/x/bcna/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
