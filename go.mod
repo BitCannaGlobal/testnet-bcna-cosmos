@@ -1,4 +1,4 @@
-module github.com/BitCannaGlobal/testnet-bcna-cosmos
+module github.com/BitCannaGlobal/bcnad
 
 go 1.15
 
