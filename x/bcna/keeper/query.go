@@ -2,7 +2,7 @@ package keeper
 
 import (
 	// this line is used by starport scaffolding # 1
-	"github.com/BitCannaGlobal/bcna/x/bcna/types"
+	"github.com/BitCannaGlobal/testnet-bcna-cosmos/x/bcna/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
