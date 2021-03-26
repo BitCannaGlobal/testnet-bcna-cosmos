@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/BitCannaGlobal/bcna/x/bcna/types"
+	"github.com/BitCannaGlobal/testnet-bcna-cosmos/x/bcna/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/tx"
 	sdk "github.com/cosmos/cosmos-sdk/types"
