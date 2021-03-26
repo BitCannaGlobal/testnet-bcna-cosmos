@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/BitCannaGlobal/bcna/app"
-	"github.com/BitCannaGlobal/bcna/cmd/bcnad/cmd"
+	"github.com/BitCannaGlobal/testnet-bcna-cosmos/app"
+	"github.com/BitCannaGlobal/testnet-bcna-cosmos/cmd/bcnad/cmd"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 )
 
