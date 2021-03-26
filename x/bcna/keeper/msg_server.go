@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/BitCannaGlobal/bcna/x/bcna/types"
+	"github.com/BitCannaGlobal/testnet-bcna-cosmos/x/bcna/types"
 )
 
 type msgServer struct {
