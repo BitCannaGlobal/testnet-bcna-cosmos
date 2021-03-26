@@ -2,7 +2,7 @@ package keeper
 
 import (
 	"encoding/binary"
-	"github.com/BitCannaGlobal/bcna/x/bcna/types"
+	"github.com/BitCannaGlobal/testnet-bcna-cosmos/x/bcna/types"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"strconv"
