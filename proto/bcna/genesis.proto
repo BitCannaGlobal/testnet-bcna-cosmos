@@ -4,7 +4,7 @@ package BitCannaGlobal.bcna.bcna;
 // this line is used by starport scaffolding # genesis/proto/import
 import "bcna/bitcannaid.proto";
 
-option go_package = "github.com/BitCannaGlobal/bcna/x/bcna/types";
+option go_package = "github.com/BitCannaGlobal/testnet-bcna-cosmos/x/bcna/types";
 
 // GenesisState defines the capability module's genesis state.
 message GenesisState {
