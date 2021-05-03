@@ -31,7 +31,8 @@ cat <<'EOF' >>$HOME/.profile
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export GO111MODULE=on
-export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
+export GOBIN=$HOME/go/bin
+export PATH=$PATH:/usr/local/go/bin:$GOBIN
 EOF
 source $HOME/.profile
 ```
