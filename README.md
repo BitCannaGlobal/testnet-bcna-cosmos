@@ -35,12 +35,26 @@ export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 EOF
 source $HOME/.profile
 ```
+To verify that Go is installed:
+``` 
+go version
+```
+Should return go version go1.15.11 linux/amd64
 
+# Compile BCNAD source code by yourself
 ## Download source code and compile
 ```
 git clone https://github.com/BitCannaGlobal/testnet-bcna-cosmos.git
 cd testnet-bcna-cosmos
 git checkout v.testnet5
 make build   #it build the binary in build/ folder
-make install #it move the binary to $GOBIN path folder
 ```
+To know the version:
+```
+build/bcnad version
+```
+The output must be `.testnet5`
+
+Is the versión match, now you have two options
+* Move the binary to the /usr/local/bin path with: `sudo mv build/bcnad /usr/local/bin/`
+* Compile and install the binary in the $GOPATH path:  `make install`
