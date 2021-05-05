@@ -47,14 +47,14 @@ Should return go version go1.15.11 linux/amd64
 ```
 git clone https://github.com/BitCannaGlobal/testnet-bcna-cosmos.git
 cd testnet-bcna-cosmos
-git checkout v.testnet5
+git checkout v0.testnet6
 make build   #it build the binary in build/ folder
 ```
 To know the version:
 ```
 build/bcnad version
 ```
-The output must be `.testnet5`
+The output must be `0.testnet6`
 
 Is the versión match, now you have two options
 * Move the binary to the /usr/local/bin path with: `sudo mv build/bcnad /usr/local/bin/`
