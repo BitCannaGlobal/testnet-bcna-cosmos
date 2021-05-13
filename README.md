@@ -11,7 +11,7 @@ Install deps
 sudo apt-get install build-essential jq
 ```
 
-# Compile instructions
+# Compile instructions: install GoLang
 
 Install Go 1.15.x (there are some issues with SDK keyring and 1.16.x)
 The official instructions can be found here: https://golang.org/doc/install
