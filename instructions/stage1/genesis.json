@@ -330,11 +330,20 @@
       "client_genesis": {
         "clients": [],
         "clients_consensus": [],
-        "create_localhost": false
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
       },
       "connection_genesis": {
         "connections": [],
-        "client_connection_paths": []
+        "client_connection_paths": [],
+        "next_connection_sequence": "0"
       },
       "channel_genesis": {
         "channels": [],
@@ -343,7 +352,8 @@
         "receipts": [],
         "send_sequences": [],
         "recv_sequences": [],
-        "ack_sequences": []
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
       }
     },
     "mint": {
