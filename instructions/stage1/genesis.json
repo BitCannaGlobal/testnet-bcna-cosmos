@@ -1,6 +1,6 @@
 {
   "genesis_time": "2021-05-18T09:23:34.496742553Z",
-  "chain_id": "bitcanna-testnet-1",
+  "chain_id": "bitcanna-testnet-2",
   "initial_height": "1",
   "consensus_params": {
     "block": {
