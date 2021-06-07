@@ -45,7 +45,7 @@ Usage:
 `bcna tx staking delegate [validator-addr] [amount] [flags]`
 
 ```
-bcnad tx staking delegate  bcnavaloper1aa3hp99wg9gkmg9u8j4054mq7707fcgsav7rt6 100000000ubcna --from Leonorweb --gas auto --gas-adjustment 1.5 --gas-prices 0.01ubcna --chain-id bitcanna-testnet-2
+bcnad tx staking delegate  bcnavaloper1aa3hp99wg9gkmg9u8j4054mq7707fcgsav7rt6 100000000ubcna --from walletname --gas auto --gas-adjustment 1.5 --gas-prices 0.01ubcna --chain-id bitcanna-testnet-2
 ```
 
 #### Check the HASH of one TX
@@ -60,7 +60,7 @@ In addition, you can check the hash from the browser.
 **As a delegator you are not obliged to run a fullnode or validator.**
 There are two ways to delegate and transfer funds:
 * Using a command line interface (*bcnad*)
-* Log in into a [webwallet](https://www.bitcanna.io) or [mobile wallet](https://www.bitcanna.io)
+* Log in into a [webwallet](https://testnet-wallet.bitcanna.io/) or mobile wallet (to be released)
 
 Some useful commands:
 
