@@ -64,7 +64,7 @@ You may create a wallet with one or more keys (addresses) using `bcnad`; you can
 your address is something like this: `bcna14shzreglay98us0hep44hhhuy7dm43snv38plr`
 
 
-2. **Initialize the folders:** change _Moniker_ by your validator name (use quotes for two or more separated words *"Royal Queen Seeds"*)
+2. **Initialize the folders:** change **_Moniker_** by your validator name (use quotes for two or more separated words *"Royal Queen Seeds"*)
     ```
     bcnad init Moniker --chain-id bitcanna-testnet-2
     ```
