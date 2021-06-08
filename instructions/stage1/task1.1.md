@@ -78,7 +78,7 @@ your address is something like this: `bcna14shzreglay98us0hep44hhhuy7dm43snv38pl
 4. Add to _config.toml_ file the server SEEDs:
 
     ```
-    sed -E -i 's/seeds = \".*\"/seeds = \"d6aa4c9f3ccecb0cc52109a95962b4618d69dd3f@seed1.bitcanna.io:26656,41d373d03f93a3dc883ba4c1b9b7a781ead53d76@seed2.bitcanna.io:16656\"/' $HOME/.bcna/config/config.toml
+    sed -E -i 's/seeds = \".*\"/seeds = \"d6aa4c9f3ccecb0cc52109a95962b4618d69dd3f@seed1.bitcanna.io:26656,178.128.247.173:26656 ,41d373d03f93a3dc883ba4c1b9b7a781ead53d76@seed2.bitcanna.io:16656\"/' $HOME/.bcna/config/config.toml
     ```
 
 5. Add to _config.toml_ file the _persistent_peers_: (this list could grow up the next days)
