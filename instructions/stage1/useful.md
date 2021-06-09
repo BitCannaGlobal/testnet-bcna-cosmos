@@ -95,7 +95,7 @@ bcnad query distribution rewards bcna1km88duvfjhq4cda36cf75kgfrv89k8mcxs6sdu --o
 **Claim the reward:**
 
 ```
-bcnad tx distribution withdraw-all-rewards --from MyWalletName --gas-adjustment 1.5 --gas auto --gas-prices 0.01ubcna --chain-id bitcanna-testnet-2"
+bcnad tx distribution withdraw-all-rewards --from MyWalletName --gas-adjustment 1.5 --gas auto --gas-prices 0.01ubcna --chain-id bitcanna-testnet-2
 ```
 ## Rewards as validator
 Withdraw rewards from a given delegation address,
