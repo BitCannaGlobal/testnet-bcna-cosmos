@@ -109,18 +109,7 @@ your address is something like this: `bcna14shzreglay98us0hep44hhhuy7dm43snv38pl
     3:31PM INF Committed state appHash=538A4DAB9CE88D2DAD4D0FA047615F05BEBA49722A7478382614252FDBFC3108 height=3887 module=state txs=0
     ```
 
-9. **Check the sync:** while `catching_up = true` the node is syncing. Also you can compare your current block with the last synced block of another node or at our [Explorer](https://testnet-explorer.bitcanna.io):
-    ```
-    curl -s localhost:26657/status  | jq .result.sync_info.catching_up
-    #true output is syncing - false is synced
-
-    curl -s localhost:26657/status | jq .result.sync_info.latest_block_height
-    #this output is your last block synced
-
-    curl -s "http://seed1.bitcanna.io:26657/status?"  | jq .result.sync_info.latest_block_height
-    #this output the public node last block synced
-    ```
-10. **Service creation**
+9. **Service creation**
 With all configurations ready, you can start your blockchain node with a single command (`bcnad start`). In this tutorial, however, you will find a simple way to set up `systemd` to run the node daemon with auto-restart.
 
 Setup `bcnad` systemd service (copy and paste all to create the file service):
@@ -150,6 +139,17 @@ Check the logs to see if it is working?
     ```
     sudo journalctl -u bcnad -f
     ``` 
+10. **Check the sync:** while `catching_up = true` the node is syncing. Also you can compare your current block with the last synced block of another node or at our [Explorer](https://testnet-explorer.bitcanna.io):
+    ```
+    curl -s localhost:26657/status  | jq .result.sync_info.catching_up
+    #true output is syncing - false is synced
+
+    curl -s localhost:26657/status | jq .result.sync_info.latest_block_height
+    #this output is your last block synced
+
+    curl -s "http://seed1.bitcanna.io:26657/status?"  | jq .result.sync_info.latest_block_height
+    #this output the public node last block synced
+    ```
 
 ## Step 2 - Become a validator
 To become a validator you need to perform additional steps. 
