@@ -40,14 +40,6 @@ bcnad tx bank send bcna14zvcj7uq5wnwe0hus9rl0yfd3sdckq40tuy6mu bcna1r7f6445p8u56
 bcnad tx bank send $(bcnad keys show Mywallet -a) bcna1r7f6445p8u569ssumjcvsl6tnys65zgah5zgvr 1000001000000ubcna   --chain-id bitcanna-testnet-2 -y --gas auto --gas-adjustment 1.5 --gas-prices 0.01ubcna
 ```
 
-#### Delegate some coins to a validator
-Usage:
-`bcna tx staking delegate [validator-addr] [amount] [flags]`
-
-```
-bcnad tx staking delegate  bcnavaloper1aa3hp99wg9gkmg9u8j4054mq7707fcgsav7rt6 100000000ubcna --from walletname --gas auto --gas-adjustment 1.5 --gas-prices 0.01ubcna --chain-id bitcanna-testnet-2
-```
-
 #### Check the HASH of one TX
 
 When you send a TX to the blockchain it returns a unique hash which identifies it and shows a result. You can check this hash anytime with command line:
