@@ -75,7 +75,7 @@ bcnad query staking delegationbcna1dpa0fkmjf3taqnc4fu43l2lgektt3caey6sf5j bcnava
 * **Make a delegation**: you need your address and validator's address and indicate the amount of coins to delegate:
 
 ```
-bcnad tx staking delegate  bcnavaloper1dpa0fkmjf3taqnc4fu43l2lgektt3caea8pfwx 100000000ubcna --from walletname --gas-adjustment 1.5 --gas auto --gas-prices 0.01ubcna --chain-id bitcanna-1
+bcnad tx staking delegate  bcnavaloper1dpa0fkmjf3taqnc4fu43l2lgektt3caea8pfwx 100000000ubcna --from walletname --gas-adjustment 1.5 --gas auto --gas-prices 0.01ubcna --chain-id bitcanna-testnet-2
 ```
 
 * Check the list of validators: 
