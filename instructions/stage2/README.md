@@ -1,9 +1,11 @@
-# Welcome to STAGE 2.
+# Welcome to STAGE 2. Initiate a coordinated start of the blockchain `bitcanna-testnet-3`
 
 
 ## Here you will find link to our guide:
 
-2.1. [Initiate a coordinated start of the blockchain bitcanna-testnet-3](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage2/task2.1.md)
+2.1. [Create & submit your GenTX](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage2/task2.1.md)
+
+2.2. [Get the definitive Genesis file and start your validator](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage2/task2.2.md)
 
 
 ## Extra info
