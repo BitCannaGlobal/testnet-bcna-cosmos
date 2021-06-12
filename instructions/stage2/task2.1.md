@@ -71,3 +71,4 @@ Genesis transaction written to "/home/linux/.bcna/config/gentx/gentx-7c030b0172d
 
 **IMPORTANT NOTE:** We repeat, users that submit files with the wrong file name, a changed amounts in coins, or malformed json structure will be disqualified from this Stage.
 
+After completing the task, you will notice that you will stop signing blocks and this is completely normal. Please leave your node disabled. It will be jailed and it doesn't matter. Simply wait for task 2!
