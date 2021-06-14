@@ -67,7 +67,7 @@ Genesis transaction written to "/home/linux/.bcna/config/gentx/gentx-7c030b0172d
 ```
 
 2. You must submit this file to your Testnet Dashboard (task 2.1).
-**The name of the file matters, it must be the same, so there's no need to change it! (example: gentx-yournodeID.json)**
+**The name of the file uploaded to the task center MUST be the same as the file generated from step 2.1. So don't change it! (example: gentx-7c030b0172dcc19fad261dac5601c1282282e747.json)**
 
 **IMPORTANT NOTE:** We repeat, users that submit files with the wrong file name, a changed amounts in coins, or malformed json structure will be disqualified from this Stage.
 
