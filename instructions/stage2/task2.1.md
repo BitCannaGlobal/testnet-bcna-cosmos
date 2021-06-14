@@ -35,7 +35,7 @@ curl -s https://raw.githubusercontent.com/BitCannaGlobal/testnet-bcna-cosmos/mai
 ```
 
 4. Prepare your **GenTX.**
-For this step you need to know your address. The following command will list all your addresses and wallet's name.
+For this step you need to know your address. The following command will list all your addresses and wallet's name. If you have multiple wallets, please locate the wallet which you funded in the current testnet.
     ```
     bcnad keys list 
     bcnad keys show YourWalletName -a
@@ -67,7 +67,7 @@ Genesis transaction written to "/home/linux/.bcna/config/gentx/gentx-7c030b0172d
 ```
 
 2. You must submit this file to your Testnet Dashboard (task 2.1).
-**The name of the file matters, it must be the same(!).**
+**The name of the file matters, it must be the same, so there's no need to change it! (example: gentx-yournodeID.json) **
 
 **IMPORTANT NOTE:** We repeat, users that submit files with the wrong file name, a changed amounts in coins, or malformed json structure will be disqualified from this Stage.
 
