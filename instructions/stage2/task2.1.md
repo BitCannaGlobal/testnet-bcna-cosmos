@@ -55,7 +55,7 @@ bcnad add-genesis-account $(bcnad keys show YourWalletName -a) 100000000000ubcna
 
 1. Generate the TX to become Genesis validator: **change the values between brackets < > ""** by yours
 ```
-bcnad gentx <YourWallet> 90000000000ubcna --moniker "YourValidatorName" --chain-id bitcanna-testnet-3 -y
+bcnad gentx <YourWalletName> 90000000000ubcna --moniker "YourValidatorName" --chain-id bitcanna-testnet-3 -y
 ```
 In example: 
 `bcnad gentx Myvalidator 90000000000ubcna --moniker "BitCanna Power" --chain-id bitcanna-testnet-3 -y`
