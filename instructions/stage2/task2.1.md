@@ -28,13 +28,17 @@ sudo systemctl stop bcnad
 rm -rf $HOME/.bcna/config/genesis.json
 rm -rf $HOME/.bcna/config/gentx/ 
 ```
-3. Get the new **Genesis (temporary)**:
+3. **Init the new chain locally.** Change ***Moniker*** by your validator name
+```
+bcnad init "Moniker" --chain-id bitcanna-testnet-3
+```
+4. Get the new **Genesis (temporary)**:
 
 ```
 curl -s https://raw.githubusercontent.com/BitCannaGlobal/testnet-bcna-cosmos/main/instructions/stage2/genesis.json > ~/.bcna/config/genesis.json
 ```
 
-4. Prepare your **GenTX.**
+5. Prepare your **GenTX.**
 For this step you need to know your address. The following command will list all your addresses and wallet's name. If you have multiple wallets, please locate the wallet which you funded in the current testnet.
     ```
     bcnad keys list 
