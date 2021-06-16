@@ -10,11 +10,11 @@
 curl -s https://raw.githubusercontent.com/BitCannaGlobal/testnet-bcna-cosmos/main/instructions/stage2/genesis.json > ~/.bcna/config/genesis.json
 ```
 
-2. Ensure you retrieve the right file. The md5sum must be `45c19f9448e0afcd44573b1addfe1223`
+2. Ensure you retrieve the right file. The sha256sum must be `5d5f635660d8634e1a18002cba3cc68d3fcf60f8b2c1499569f13c91c1e10387`
 
 ```
-md5sum ~/.bcna/config/genesis.json 
-45c19f9448e0afcd44573b1addfe1223  /home/user/.bcna/config/genesis.json
+sha256sum ~/.bcna/config/genesis.json
+5d5f635660d8634e1a18002cba3cc68d3fcf60f8b2c1499569f13c91c1e10387
 ```
 
 ### Step 2. Start the daemon and wait.
