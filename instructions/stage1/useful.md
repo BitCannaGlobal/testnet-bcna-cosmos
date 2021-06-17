@@ -31,13 +31,13 @@ bcnad query bank balances bcna14zvcj7uq5wnwe0hus9rl0yfd3sdckq40tuy6mu --output j
 Usage:
 `bcnacli tx bank send [from_key_or_address] [to_address] [amount] [flags]`
 ```
-bcnad tx bank send bcna14zvcj7uq5wnwe0hus9rl0yfd3sdckq40tuy6mu bcna1r7f6445p8u569ssumjcvsl6tnys65zgah5zgvr 1000000000000ubcna   --chain-id bitcanna-testnet-2 -y --gas auto --gas-adjustment 1.5 --gas-prices 0.01ubcna
+bcnad tx bank send bcna14zvcj7uq5wnwe0hus9rl0yfd3sdckq40tuy6mu bcna1r7f6445p8u569ssumjcvsl6tnys65zgah5zgvr 1000000000000ubcna   --chain-id bitcanna-testnet-3 -y --gas auto --gas-adjustment 1.5 --gas-prices 0.01ubcna
 ```
 *Send from bcna14..(self) to bcna16.. 1 million BCNAs (6 decimals without dot)*
 
 > When you don't remember your address you can use subqueries with `$(bcnad keys show Mywallet -a)`:
 ```
-bcnad tx bank send $(bcnad keys show Mywallet -a) bcna1r7f6445p8u569ssumjcvsl6tnys65zgah5zgvr 1000001000000ubcna   --chain-id bitcanna-testnet-2 -y --gas auto --gas-adjustment 1.5 --gas-prices 0.01ubcna
+bcnad tx bank send $(bcnad keys show Mywallet -a) bcna1r7f6445p8u569ssumjcvsl6tnys65zgah5zgvr 1000001000000ubcna   --chain-id bitcanna-testnet-3 -y --gas auto --gas-adjustment 1.5 --gas-prices 0.01ubcna
 ```
 
 #### Check the HASH of one TX
@@ -75,7 +75,7 @@ bcnad query staking delegationbcna1dpa0fkmjf3taqnc4fu43l2lgektt3caey6sf5j bcnava
 * **Make a delegation**: you need your address and validator's address and indicate the amount of coins to delegate:
 
 ```
-bcnad tx staking delegate  bcnavaloper1dpa0fkmjf3taqnc4fu43l2lgektt3caea8pfwx 100000000ubcna --from walletname --gas-adjustment 1.5 --gas auto --gas-prices 0.01ubcna --chain-id bitcanna-testnet-2
+bcnad tx staking delegate  bcnavaloper1dpa0fkmjf3taqnc4fu43l2lgektt3caea8pfwx 100000000ubcna --from walletname --gas-adjustment 1.5 --gas auto --gas-prices 0.01ubcna --chain-id bitcanna-testnet-3
 ```
 
 * Check the list of validators: 
@@ -95,7 +95,7 @@ bcnad query distribution rewards bcna1km88duvfjhq4cda36cf75kgfrv89k8mcxs6sdu --o
 **Claim the reward:**
 
 ```
-bcnad tx distribution withdraw-all-rewards --from MyWalletName --gas-adjustment 1.5 --gas auto --gas-prices 0.01ubcna --chain-id bitcanna-testnet-2
+bcnad tx distribution withdraw-all-rewards --from MyWalletName --gas-adjustment 1.5 --gas auto --gas-prices 0.01ubcna --chain-id bitcanna-testnet-3
 ```
 ## Rewards as validator
 Withdraw rewards from a given delegation address,
@@ -113,7 +113,7 @@ commission:
 
 * Claim:
 ```
-bcnad tx distribution withdraw-rewards bcnavaloper1r7f6445p8u569ssumjcvsl6tnys65zgawfngkh --from MyWalletName --commission --gas-adjustment 1.5 --gas auto --gas-prices 0.01ubcna --chain-id bitcanna-testnet-2
+bcnad tx distribution withdraw-rewards bcnavaloper1r7f6445p8u569ssumjcvsl6tnys65zgawfngkh --from MyWalletName --commission --gas-adjustment 1.5 --gas auto --gas-prices 0.01ubcna --chain-id bitcanna-testnet-3
 ```
 
 ## Working with local KEYS
