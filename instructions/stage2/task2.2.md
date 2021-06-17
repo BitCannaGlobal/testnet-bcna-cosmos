@@ -14,7 +14,7 @@ curl -s https://raw.githubusercontent.com/BitCannaGlobal/testnet-bcna-cosmos/mai
 
 ```
 sha256sum ~/.bcna/config/genesis.json
-5d5f635660d8634e1a18002cba3cc68d3fcf60f8b2c1499569f13c91c1e10387
+           > expected output: 5d5f635660d8634e1a18002cba3cc68d3fcf60f8b2c1499569f13c91c1e10387
 ```
 
 ### Step 2. Start the daemon and wait.
