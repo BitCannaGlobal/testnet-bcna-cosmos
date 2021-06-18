@@ -7,6 +7,8 @@
 
 2.2. [Get the definitive Genesis file and start your validator](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage2/task2.2.md)
 
+2.3. [Never be jailed.](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage2/task2.3.md)
+
 EXTRA GUIDE: [How become validator after 17-06-2021 - 14:00h UTC](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage2/alternative.md)
 
 ## Chain info
