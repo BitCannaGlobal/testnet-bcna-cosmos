@@ -7,6 +7,8 @@
 
 2.2. [Get the definitive Genesis file and start your validator](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage2/task2.2.md)
 
+EXTRA GUIDE: [How become validator after 17-06-2021 - 14:00h UTC](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage2/alternative.md)
+
 ## Chain info
 * `chain-id: bitcanna-testnet-3`
 * `seeds = "d6aa4c9f3ccecb0cc52109a95962b4618d69dd3f@seed1.bitcanna.io:26656,41d373d03f93a3dc883ba4c1b9b7a781ead53d76@seed2.bitcanna.io:16656,8e241ba2e8db2e83bb5d80473b4fd4d901043dda@178.128.247.173:26657"` 
