@@ -78,3 +78,61 @@ The default parameters used to be right. The most important aspect to avoid get 
 * quick SSD or nve disk
 
 Don't forget to restart the daemon (`sudo service bcnad restart`)
+
+## Create a swapfile for the system to breathe in tought times (eg: spam, busy network)
+
+Check if your system already has a Swapfile
+
+`sudo swapon --show `
+
+if no results, it means you have no swapfile.
+
+Allocate space to the swapfile (in this case, 4GB)
+
+`sudo fallocate -l 4G /swapfile`
+
+
+Give the swapfile the correct permissions - owner only.
+
+`sudo chmod 600 /swapfile`
+
+
+Set up the swap area
+
+`sudo mkwap /swapfile`
+
+
+Active swap
+
+`sudo swapon /swapfile`
+
+
+Now make it permanent
+
+`sudo pico /etc/fstab` - and paste this line
+
+` /swapfile swap swap defaults 0 0`
+
+Verify swap creation: 
+
+`sudo swapon --show` or `sudo free -h` , also shows in `htop`
+
+
+### Now, configure kernel module for swap support
+
+Add to swappiness kernel
+
+`cat /proc/sys/vm/swappiness` #output should be 60 or near, which is good, but we need a lower value for production so let's change it to 10:
+
+`sudo sysctl vm.swappiness=10`
+
+
+Make the change permanent
+
+```sudo pico /etc/sysctl.conf ``` - and add this line at the bottom vm.swappiness=10
+
+
+Reboot your system check again with `sudo swapon --show` or `sudo free -h`
+
+If you did all the steps correctly it should be fine.
+
