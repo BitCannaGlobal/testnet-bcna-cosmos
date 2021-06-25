@@ -99,7 +99,7 @@ Give the swapfile the correct permissions - owner only.
 
 Set up the swap area
 
-`sudo mkwap /swapfile`
+`sudo mkswap /swapfile`
 
 
 Active swap
