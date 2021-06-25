@@ -77,10 +77,20 @@ bcnad query staking delegationbcna1dpa0fkmjf3taqnc4fu43l2lgektt3caey6sf5j bcnava
 ```
 bcnad tx staking delegate  bcnavaloper1dpa0fkmjf3taqnc4fu43l2lgektt3caea8pfwx 100000000ubcna --from walletname --gas-adjustment 1.5 --gas auto --gas-prices 0.01ubcna --chain-id bitcanna-testnet-3
 ```
-
+* **Redelegate illiquid tokens from one validator to another**: tx staking redelegate [src-validator-addr] [dst-validator-addr] [amount]
+We can also move our staked tokens from one validator to another by:
+```
+bcnad tx staking redelegate bcnavaloper1km88duvfjhq4cda36cf75kgfrv89k8mcldtshg bcnavaloper1pyrnags7c0n74d2ffcnlyyjyr5454m08xprsnz 10000000000ubcna --from walletname --gas-adjustment 1.5 --gas auto --gas-prices 0.01ubcna --chain-id bitcanna-testnet-3
+```
+* **Unbond shares from a validator**: tx staking unbond [validator-addr] [amount]
+Delegator can unbond their staked tokens by:
+```
+bcnad tx staking unbond bcnavaloper1dpa0fkmjf3taqnc4fu43l2lgektt3caea8pfwx 10000000000ubcna --from walletname --gas-adjustment 1.5 --gas auto --gas-prices 0.01ubcna --chain-id bitcanna-testnet-3
+```
+_Remark_: Note that funds will only be available after the `unbonding_time` has passed.
 * Check the list of validators: 
 
-`bcnad query staking validators  --output json | jq`
+```bcnad query staking validators  --output json | jq```
 
 ## Rewards as delegator
 
