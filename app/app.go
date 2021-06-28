@@ -282,8 +282,8 @@ func New(
 		app.GetSubspace(crisistypes.ModuleName), invCheckPeriod, app.BankKeeper, authtypes.FeeCollectorName,
 	)
 	app.UpgradeKeeper = upgradekeeper.NewKeeper(skipUpgradeHeights, keys[upgradetypes.StoreKey], appCodec, homePath)
-		app.UpgradeKeeper.SetUpgradeHandler("indica", func(ctx sdk.Context, plan upgradetypes.Plan) {
-   		//Change to indica codename version
+		app.UpgradeKeeper.SetUpgradeHandler("sativa", func(ctx sdk.Context, plan upgradetypes.Plan) {
+   		//Change to sativa codename version updating Cosmos SDK, Tendermint and grpc
    		})
 
 
