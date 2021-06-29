@@ -25,7 +25,7 @@ After a successful launch, other validators can still be added, and get coins af
 sudo systemctl stop bcnad
 ```
 2. **Keep a backup** of your old validator directory.
-cp -a ~/.bcna ~/bcna_backup
+`cp -a ~/.bcna ~/bcna_backup`
 
 3. **Delete the old** GenTX file (if it exists)
 ```
