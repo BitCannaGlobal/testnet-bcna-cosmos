@@ -30,7 +30,7 @@ cp -a ~/.bcna ~/bcna_backup
 3. **Delete the old** GenTX file (if it exists)
 ```
 rm -rf $HOME/.bcna/config/gentx/
-rm -rf $HOME/.bcna/genesis.json
+rm -rf $HOME/.bcna/config/genesis.json
 ```
 4. **Init the new chain locally.** Change ***Moniker*** by your validator name. 
 ```
