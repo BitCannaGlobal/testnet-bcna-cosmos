@@ -52,9 +52,6 @@ bcnad add-genesis-account $(bcnad keys show YourWalletName -a) 100000000000ubcna
 **NOTE:** It will ask you by your wallet-passphrase. If no response, no error ;)
 ### Step 2. Create & submit your GenTX
 
-> Time interval: From June 29th Tuesday 14.00h UTC to 30th Wednesday 14.00h UTC
-(You MUST submit your GenTX only between these dates)
-
 1. Generate the TX to become Genesis validator: **change the values between brackets < > ``""``** by yours
 ```
 bcnad gentx <YourWalletName> 90000000000ubcna --moniker "YourValidatorName" --chain-id bitcanna-testnet-4 -y
