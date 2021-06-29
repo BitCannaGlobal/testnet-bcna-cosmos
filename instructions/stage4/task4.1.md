@@ -31,7 +31,7 @@ cp -a ~/.bcna ~/bcna_backup
 ```
 rm -rf $HOME/.bcna/config/gentx/ 
 ```
-4. **Init the new chain locally.** Change ***Moniker*** by your validator name. The parameter `rewrite` generate a new genesis file locally.
+4. **Init the new chain locally.** Change ***Moniker*** by your validator name. The parameter `overwrite` generate a new genesis file locally and new priv_validator_keys file. If you want to use the previous Private key avoid the param `--overwrite`
 ```
 bcnad init "Moniker" --chain-id bitcanna-testnet-4 --overwrite
 ```
