@@ -29,11 +29,12 @@ cp -a ~/.bcna ~/bcna_backup
 
 3. **Delete the old** GenTX file (if it exists)
 ```
-rm -rf $HOME/.bcna/config/gentx/ 
+rm -rf $HOME/.bcna/config/gentx/
+rm -rf $HOME/.bcna/genesis.json
 ```
-4. **Init the new chain locally.** Change ***Moniker*** by your validator name. The parameter `overwrite` generate a new genesis file locally and new priv_validator_keys file. If you want to use the previous Private key avoid the param `--overwrite`
+4. **Init the new chain locally.** Change ***Moniker*** by your validator name. 
 ```
-bcnad init "Moniker" --chain-id bitcanna-testnet-4 --overwrite
+bcnad init "Moniker" --chain-id bitcanna-testnet-4
 ```
 
 5. Prepare your **GenTX.**
