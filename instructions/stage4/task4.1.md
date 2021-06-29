@@ -1,5 +1,5 @@
 # STAGE 4. Task 1. - Create & submit your GenTX for testnet-4.
-> Time interval: From June 30th Wednesday 10.00h UTC to June 29th Wednesday 14.00h UTC
+> Time interval: From June 29th Wednesday 10.00h UTC to June 30th Wednesday 14.00h UTC
 
 In Stage 4 (bitcanna-testnet-4) We are going to simulate a coordinated start again, which we'll also use in the BitCanna Mainnet, also known as a "Dry run"
 
