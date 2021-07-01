@@ -1,4 +1,4 @@
-# ALTERNATIVE: STAGE 4. Task 3. Cast your vote.
+# STAGE 4. Task 3. Cast your vote.
 
 In this task we are going to test the Voting feature with the BitCanna Web Wallet with Keplr extension, and with CLI (command line interface)
 
