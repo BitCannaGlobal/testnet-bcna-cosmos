@@ -15,7 +15,7 @@ We will vote for a proposal to upgrade the chain. The proposal will point us to 
 ![](https://i.imgur.com/DkWawvC.png)
 
 
-4. Submit the TX HASH from your voting TX through Keplr in the Task Center, in the "proof" field for task 4.3.
+4. Collect the TX HASH from your voting TX through Keplr, and submit it together with the TX hash you will receive in Step 7 in the Task center.
 
 Example: `https://testnet-explorer.bitcanna.io/transactions/F03C65E1F3A788FDA5D034D3B2634F2E8BAA165C0645F60E8B941F3BBC72DA04`
 
@@ -31,7 +31,7 @@ Example:
 ```
 bcnad tx gov vote 2 yes --gas auto --gas-adjustment 1.4 --gas-prices 0.01ubcna  --from walletname --chain-id bitcanna-testnet-4
 ```
-7. Submit the TX HASH from your voting TX through CLI in the Task Center, in the "proof" field for task 4.3.
+7. Submit the TX HASHes from your voting TX through KEPLR (step 4) and CLI in the Task Center, in the "proof" field for task 4.3.
 Example: `https://testnet-explorer.bitcanna.io/transactions/59B441F7199FB5DFEF5D976661DA7A8804A05D2F2682FF7CD09B5F6FAB556590`
 
 In the BitCanna Explorer you can view the impact of your new decision on the proposal (optional) https://testnet-explorer.bitcanna.io/proposals/2
