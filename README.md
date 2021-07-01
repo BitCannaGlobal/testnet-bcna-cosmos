@@ -59,3 +59,14 @@ The output must be `0.testnet7`
 Is the versión match, now you have two options
 * Move the binary to the /usr/local/bin path with: `sudo mv build/bcnad /usr/local/bin/`
 * Compile and install the binary in the $GOPATH path:  `make install`
+
+# Cosmosvisor Quick Start
+Cosmovisor is a small process manager for Cosmos SDK binaries that monitors the governance module via stdout for incoming chain upgrade proposals. If it sees a proposal that gets approved, it can be run manually or automatically to download the new binary, stop the current binary, run the migration script, replace the old node binary with the new one, and finally restart the node with the new genesis file.
+
+## Installation
+To install cosmovisor, run the following command (it takes some minutes):
+
+go get github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor
+
+* [more info about Cosmovisor](https://github.com/cosmos/cosmos-sdk/tree/master/cosmovisor#readme)
+* [how BitCanna implements Cosmovisor](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage4/task4.4.md)
