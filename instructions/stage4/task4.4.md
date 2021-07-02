@@ -1,11 +1,11 @@
 # STAGE 4. Task 4. The SATIVA Upgrade
-Core Team will create a governance proposal on 1st July, 2021 at ~14:30 UTC, to upgrade the network to a new release, `v0.testnet7`.
+Core Team will create a governance proposal on 1st July, 2021 at ~16:00 UTC, to upgrade the network to a new release, `v0.testnet7`.
 
 __New to upgrades?__ Read [this](https://docs.cosmos.network/master/modules/gov)
 
 **Upgrade Schedule:**
 - Proposal: 1st Jul, 2021 ~14:30 UTC
-- Voting Period: 1st Jul-03rd Jul, ~14:30 UTC
+- Voting Period: 1st Jul-03rd Jul, ~16:30 UTC
 - Upgrade Height: `59576` (Close to 05th Jul, ~1400 UTC)
 
 **What should validators do?**
