@@ -6,7 +6,7 @@ __New to upgrades?__ Read [this](https://docs.cosmos.network/master/modules/gov)
 **Upgrade Schedule:**
 - Proposal: 1st Jul, 2021 ~14:30 UTC
 - Voting Period: 1st Jul-03rd Jul, ~16:30 UTC
-- Upgrade Height: `59576` (Close to 05th Jul, ~1400 UTC)
+- Upgrade Height: `58576` (Close to 05th Jul, ~1400 UTC)
 
 **What should validators do?**
 - Review the software upgrade proposal and cast your vote before voting period endtime (you should have already voted in task #3, otherwise go cast your vote)
@@ -20,7 +20,7 @@ __New to upgrades?__ Read [this](https://docs.cosmos.network/master/modules/gov)
 ## How to upgrade
 
 
-There are two ways to perform the UPGRADE when the time (`block-height=59576`) comes:
+There are two ways to perform the UPGRADE when the time (`block-height=58576`) comes:
 * Option 1 Manually, after the network upgrade (0 points)
 * Option 2 Automated, with Cosmovisor, ahead of the network upgrade **(RECOMMENDED)** (200 points)
 
@@ -28,7 +28,7 @@ Choose one of them (not both)
 
 ### Option 1 (0 points awarded): Manually, if you fail to update before the network upgrade (normally recommended for Wallet nodes, Explorer nodes, etc)
 
-1) Stop your bcnad service **after you see this** in your logs ` ERR UPGRADE "sativa" NEEDED at height: 59576`
+1) Stop your bcnad service **after you see this** in your logs ` ERR UPGRADE "sativa" NEEDED at height: 58576`
 
 ```
 sudo service bcnad stop
