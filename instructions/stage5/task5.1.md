@@ -67,7 +67,7 @@ Go to #testnet-faucet channel and claim (one time) coins to your address using t
 
 Make sure to keep around 1K BCNA liquid for this Stage to make TXs.
 
-3. **Send the _Create validator_ TX:**
+2. **Send the _Create validator_ TX:**
 
 > Read the FAQ manual to understand all parameters:
 > https://hackmd.io/_R2KtQzAS02QXdwpJdqmnw
