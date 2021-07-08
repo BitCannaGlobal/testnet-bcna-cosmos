@@ -27,11 +27,9 @@ curl -s https://raw.githubusercontent.com/BitCannaGlobal/testnet-bcna-cosmos/mai
 
 
 
-3. Check your seeds / persistent_peers in config.toml and replace them if necessary
+3. Check your seeds / persistent_peers in config.toml and replace them if necessary. When the network is running we can dispense with persistent nodes.
 ```
 seeds = "d6aa4c9f3ccecb0cc52109a95962b4618d69dd3f@seed1.bitcanna.io:26656,41d373d03f93a3dc883ba4c1b9b7a781ead53d76@seed2.bitcanna.io:16656,8e241ba2e8db2e83bb5d80473b4fd4d901043dda@178.128.247.173:26656"
-
-persistent_peers = "acc177d5af9fad3064c1831bba41718d5f0ef2ce@167.71.0.53:26656,dcdc83e240eb046faabef62e4daf1cfcecfa93a2@159.65.198.245:26656"
 ```
 
 4. Start the daemon and sync the network.
