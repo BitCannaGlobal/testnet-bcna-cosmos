@@ -142,7 +142,7 @@ Syntax:
 Usage:
   bcnad tx ibc-transfer transfer [src-port] [src-channel] [receiver] [amount] [flags]
 ```
-So, you must change receiver by your micro-address and indicate your own Bitcanna source wallet:
+So, you must indicate your own Bitcanna source wallet:
 
 ```
 bcnad tx ibc-transfer  transfer $BCNA_port $BCNA_channel $MT_ADDR 1000000ubcna --chain-id $BCNA_chain --from BCwalletname -y --gas auto --gas-prices 0.09ubcna --gas-adjustment 1.5  --packet-timeout-height 0-10
