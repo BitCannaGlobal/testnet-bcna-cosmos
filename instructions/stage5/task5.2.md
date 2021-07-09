@@ -212,10 +212,12 @@ balances:
 
 
 
-## Extra points awarded (100) if you perform the following TXes correctly without a guide:
+## Points awarded (100) if you perform the following TXes correctly without a guide:
 
 From MT chain > Send utick > BC chain
 From BC chain > Send utick > MT chain
+
+No step-by-step instructoins will be provided.
 
 You should be able to do this by doing some research, or working together with other participants. Good luck!
 > Don't forget to note the TX HASHes in the Task Center.
