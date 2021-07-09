@@ -212,7 +212,7 @@ balances:
 
 
 
-## Extra points awarded (100) if you perform the following TXes correctly wtihout a guide:
+## Extra points awarded (100) if you perform the following TXes correctly without a guide:
 
 From MT chain > Send utick > BC chain
 From BC chain > Send utick > MT chain
