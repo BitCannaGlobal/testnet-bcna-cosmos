@@ -117,7 +117,7 @@ export BCNA_port="transfer"
 **Important issue:**
 It is possible that your initial IBC transactions will time-out, even though it will look like your transaction was successful (you will get a TX hash). We're currently investigating this issue. You can check if your coins have actually moved your balance by performing the query command or in the explorer. If your coins haven't left, simply submit your transaction AGAIN, because the bug only occurs in the initial transaction. Any information or suggestions regarding this issue is very welcome.
 
-1. Before start you can check your balance at your BCNA wallet, replace 'walletname' with your BCNA wallet name:
+1. Before start you can check your balance at your BCNA wallet:
 ```
 bcnad query bank balances $BCNA_ADDR 
 
