@@ -30,7 +30,7 @@ Public Microtick IBC relayer:
 * rpc-server: http://seed2.bitcanna.io:26657
 
 Explorers:
-* [Microtick Tesnet](https://testnet-explorer.microtick.zone/account/micro1v0hrrga4yulkquyfnd56cfx4003dzhgggyknkg)
+* [Microtick Testnet](https://testnet-explorer.microtick.zone/)
 * [BitCanna Testnet](https://testnet-explorer.bitcanna.io/)
 
 
