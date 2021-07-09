@@ -147,7 +147,7 @@ So, you must indicate your own Bitcanna source wallet:
 ```
 bcnad tx ibc-transfer  transfer $BCNA_port $BCNA_channel $MT_ADDR 1000000ubcna --chain-id $BCNA_chain --from BCwalletname -y --gas auto --gas-prices 0.09ubcna --gas-adjustment 1.5  --packet-timeout-timestamp 6000000000000
 ```
-> **You must provide the TX HASH as proof in the Task Center**
+> **You must provide the TX HASH as proof in the Task Center, please do so at the end of the task because you need to provide them all together in 1 task**
 
 4. Check the balance again:
 ```
