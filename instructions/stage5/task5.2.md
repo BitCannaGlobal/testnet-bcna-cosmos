@@ -184,7 +184,7 @@ Syntax:
 Usage:
   mtm tx ibc-transfer transfer [src-port] [src-channel] [receiver] [amount] [flags]
 ```
-So, you must change the receiver address by your bcna-address (or BitCanna wallet name) and indicate your own Microtick source wallet:
+So, you must indicate your own Microtick source wallet:
 
 ```
 mtm tx ibc-transfer  transfer $MT_port $MT_channel $BCNA_ADDR 1000000ibc/754B5F1A44FA09CD03CE503C75A4FB2CC37FE3C00D7DA044CF4832F87ADC2D12 --chain-id $MT_chain --from MicroWalletName -y --gas auto --gas-prices 0.09utick --gas-adjustment 1.5  --node $MT_RPC  --packet-timeout-height 0-10
