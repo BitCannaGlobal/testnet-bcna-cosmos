@@ -1,4 +1,4 @@
-  # STAGE 5. Task 2. Send BCNA tokens to a Microtick_chain's address and back.
+  # STAGE 5. Task #2 Create a Microtick wallet and perform IBC transactions between the chains
 
 In this Task we are going to send BCNA test-tokens to a Microtick chain address.
 
