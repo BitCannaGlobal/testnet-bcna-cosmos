@@ -138,7 +138,7 @@ NOTE: We repeat, you must maintain the relayer running when you are performing t
 
 
 - **Step 6** Make some TX between chains using your relayer.
-Now, in order to earn the task points, you will have to use your own relayer to transfer coins between the chains, the only difference related to Task 5.2, is that now you use another port/channel in the source chain and the destination chain. You could re-set your ENV (which you set in Task 5.2) or use direct values.
+Now, in order to earn the task points, you will have to use your own relayer to transfer coins between the chains, the only difference related to Task 5.2, is that now you use another port/channel in the source chain and the destination chain. You could set your ENV values again (which you set in Task 5.2) or use direct values.
 
 Task 5.2 variables can be found [here.](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage5/task5.2.md)
 
