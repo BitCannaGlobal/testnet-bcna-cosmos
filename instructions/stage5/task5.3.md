@@ -145,7 +145,7 @@ Task 5.2 variables can be found [here.](https://github.com/BitCannaGlobal/testne
 * Send `ubcna` tokens from BC to MT chain
 * Send `utick` tokens from MT to BC chain
 
-Please add a memo to your transactions: 
+Please add a memo to your transactions, example: 
 ```
 --memo "Send ubcna tokens from BC to MT chain"
 ```
