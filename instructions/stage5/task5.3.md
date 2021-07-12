@@ -93,7 +93,7 @@ You can check both address in the respective explorer.
     ```
     ibc-setup ics20
     ```
-    You should see a similar output to this:
+    You should see a similar output to this (can take around 2 minutes):
     ```
      info: Connection open init: 07-tendermint-2 => 07-tendermint-9
     info: Connection open try: 07-tendermint-9 => 07-tendermint-2 (connection-2)
