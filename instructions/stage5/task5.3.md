@@ -1,6 +1,6 @@
 # STAGE 5. Task 3. Setup your own IBC relayer and perform transactions
 
-The following instructions are for transferring the tokens from `bitcanna-testnet-1` (source) chain to `microtick-testnet-rc8-1` (destination) chain and transfer them back to source chain.
+The following instructions are for transferring the tokens from `bitcanna-testnet-5` (source) chain to `microtick-testnet-rc8-1` (destination) chain and transfer them back to source chain.
 
 In real life you can set up connections to Osmosis, Gravity, etc, etc. 
 
