@@ -142,6 +142,8 @@ Now, in order to earn the task points, you will have to use your own relayer to 
 
 Task 5.2 variables can be found [here.](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage5/task5.2.md)
 
+You can use your old addresses, the ones you used in task 5.2 for example. The new addresses generated in this task are only for the relayer to properly work.
+
 * Send `ubcna` tokens from BC to MT chain
 * Send `utick` tokens from MT to BC chain
 
