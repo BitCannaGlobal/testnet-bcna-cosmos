@@ -13,7 +13,7 @@ The project is built on decentralized blockchain technology (Cosmos-SDK). You ca
 * 5.Task 1. [Join to our live chain `bitcanna-testnet-5`](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage5/task5.1.md)
 * 5.Task 2. [Send BCNA tokens to a Microtick_chain's address and back](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage5/task5.2.md)
 * 5.Task 3. [Setup your own IBC relayer and perform transactions](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage5/task5.3.md)
-* 5.Task 4.
+* 5.Task 4. [(Challenge) Utilize BCNA in the Microtick testnet as backing token through IBC and accumulate BCNA!](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage5/task5.4.md)
 
 
 ## Extra info
