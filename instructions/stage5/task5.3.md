@@ -65,7 +65,7 @@ echo "  bitcanna:
     gas_price: 0.01utick
     ics20_port: 'transfer'
     rpc:
-      - http://45.79.187.79:26657" >> $HOME/.ibc-setup/registry.yaml
+      - http://seed2.bitcanna.io:26657" >> $HOME/.ibc-setup/registry.yaml
 ```
 - **Step-3:** Generate the `app.yaml` config file with the account that relayer will use.
 
