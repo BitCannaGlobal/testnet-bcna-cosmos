@@ -32,7 +32,7 @@ sudo ufw allow from 167.172.43.16 proto tcp to any port 26660
 
 3. Provide the server IP that runs your node to Raul BitCanna ES#3102 on Discord by Private message.
 
-4. Check if your server is providing the data correctly by clicking the link below (afer we have added your IP, this must be done manually by the team, we will notify you once your IP has been added):
+4. Check if your server is providing the data correctly by clicking the link below (after we have added your IP, this must be done manually by the team, we will notify you once your IP has been added):
   * https://monitor.bitcanna.io/d/UJyurCTWz/bitcanna-testnet-dashboard?orgId=2 
   
 **Please keep this port open until the end of the Public Testnet.**
