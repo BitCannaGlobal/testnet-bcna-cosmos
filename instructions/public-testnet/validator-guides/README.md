@@ -4,7 +4,7 @@
 
 # Validator Guides
 
-1. [Setting up your validator and join bitcanna-testnet-6] ()
+1. [Setting up your validator and join bitcanna-testnet-6](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/validator-guides/task1.md)
 
 2. [Connect your validator to BitCanna prometheus analytics] () 
 
