@@ -8,7 +8,7 @@
 
 2. [Connect your validator to BitCanna prometheus analytics](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/validator-guides/task2.md) 
 
-3. [Perform staking & distribution transactions] ()
+3. [Perform staking & distribution transactions](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/validator-guides/task3.md)
 
 4. [Jail your validator on purpose, then unjail your validator] ()
 
