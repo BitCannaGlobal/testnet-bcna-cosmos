@@ -10,7 +10,7 @@
 
 3. [Perform staking & distribution transactions](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/validator-guides/task3.md)
 
-4. [Jail your validator on purpose, then unjail your validator] ()
+4. [Jail your validator on purpose, then unjail your validator](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/validator-guides/task4.md)
 
 5. Vote on a proposal through CLI to upgrade chain - **To be announced**
 
