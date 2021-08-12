@@ -38,7 +38,7 @@ persistent_peers = "dcdc83e240eb046faabef62e4daf1cfcecfa93a2@159.65.198.245:2665
 
 ## Extra information
 
-* A [guide with useful commands](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage1/useful.md).
+* A [guide with useful commands](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/validator-guides/useful.md).
 * You can find extra info about compiling source code [here](https://github.com/BitCannaGlobal/testnet-bcna-cosmos)
 * Testnet Documentation [Instructions](https://testnet.bitcanna.io/testnet/phase-2-public-testnet)
 * Link to our [Explorer](https://testnet-explorer.bitcanna.io/)
