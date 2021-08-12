@@ -1,4 +1,4 @@
-# Task 1. Setup up your validator and join *bitcanna-testnet-6*
+# Task 1 Setup up your validator and join *bitcanna-testnet-6*
 > IMPORTANT NOTE: If you participated in the previous BitCanna testnets, you must go to the end of the document to find specific instructions to join the public testnet.
 
 **bcnad** is a blockchain application built using Cosmos SDK v.0.42.9 and Tendermint v.0.34.11.
