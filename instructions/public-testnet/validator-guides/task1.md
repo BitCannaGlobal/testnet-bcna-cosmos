@@ -165,7 +165,7 @@ Go to #testnet-faucet channel and claim your coins (one time) to your address us
 > Read the FAQ manual to understand all parameters:
 > https://hackmd.io/_R2KtQzAS02QXdwpJdqmnw
 
-When you have your node synced and your wallet funded with coins (see [_Some useful commands_](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage1/useful.md)) send the TX to become _validator_ (change _wallet_name_ and _moniker_):
+When you have your node synced and your wallet funded with coins (see [_Some useful commands_](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/validator-guides/useful.md)) send the TX to become _validator_ (change _wallet_name_ and _moniker_):
 > You can use quotes to include spaces and more than two words
 `--from "Royal Queen Seeds"`
 
