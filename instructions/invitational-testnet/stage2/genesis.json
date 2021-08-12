@@ -1,0 +1,4910 @@
+{
+  "genesis_time": "2021-06-17T14:00:00.44293094Z",
+  "chain_id": "bitcanna-testnet-3",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1xvuxv4znmmeu96ulxhldvyt32whp57vhyzg5vh",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1km88duvfjhq4cda36cf75kgfrv89k8mcxs6sdu",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1cxquq0dnnx0l4jf0qajv2l3ftv3388j7em5mhe",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1zam8dfxpu89v8r7auv797n0se7xm5jmrx74xl9",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1eqjc8mnw3h4xqjj4c854c05guku2k29wg9xywd",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna17f7lzdlxau3yvj9feemkfu4twq76mv3k2h8988",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna15jus97th8852n4ce8u25qle6xvj2nrju779dmz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1c6eda384lvyz62u595exa52wkqexsevnnvman9",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna14dz7zytpenkyyktqvzq2mw7msfyp0y3zg48xqw",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1qx78y697mgc8sxqslv0fd5pm8lme5n2fagcx5l",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1rkcez03x6mpe3kwkdakzx4uud7xtk9vjglfnn2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1t8yky3wexwncwsdqvdet2e9l4drw69cwcgw3f0",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1se37pze66rt6z28zww7wxjp7zzxmt8qpsl7rc2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1pgcd9rv92lnhlrhjsull3lvvvwyq7lfmvxp2zt",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1x5y39pyh3nt8d0tav6fqv98znfx3j5302uhz7m",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna19ffw6z4t69xldxsjakjvzkplpqjajye3emjnet",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1mmp952nf6nhu7c27sx47jesgg7xwpmqt73wkq5",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1fdx7f9qfs3gs4497d9l34yk3ssaefywkl363xs",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna15t72dy6racfdj4qqssrvq6txzl63xedn953vfc",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1xcfxq59q9a93pkwp3falgef8wwrehdzyszyzwn",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1naxkc59kgzrsjhw93f3gnza57dsm04qa9pghts",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1hmjwnv96eg30mc7vg2wes7eu2esnk9uj5nvczg",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1hy4w5gwzwt0gfrtnu9zesf8dnwjukt7qdt0x86",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1m6yv2etcmtzglfvgfvm572uxxfa7ufykd56prf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1pyrnags7c0n74d2ffcnlyyjyr5454m08lujsfk",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna17w782tdtasmr3gvm72rjcyn5p2856dpk0ms9xu",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna17rd604fzy0hn4e6d7q4qwavp86a7xmv0xgxhyh",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1540m833cyt7r5lr5l6mnp4pnhqvqdszfxjspgk",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1x55e50cmat7z77ag6tp2ku0pgl88ujhmylxhjm",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna156k4af5m23ggvaf34wserlz4g4ffdrnawr0qa3",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna16qzasjnw39p739cj0zt6yr496ny6a8m6u336p9",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna139p2eyf5pqwfx3t2he9fh4ezvep0epl84ezjr7",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1xyyj8nnftzngpcttcjspnpajaetz9n8jlu95ak",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1yzw9hrqul6r8kxjtyydnnw5pjc7s2jev8q0f47",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna15kuflehyp0jx22tlnt6c569cjy8hhzygxw5sh0",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna17h7pyd533vfznj2cfmmfrdlzyxx4qwjd5q37zk",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1va8zvheff55wl9s73x9grqvue954gy9r2zeuv2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1xsczxvamtywlw5n0ctd7ayykpgtm08f8l3ty0y",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1mrn27q09tmd4q9mfayrcjfu70gwwsfhzj5krgq",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna15kpf5m64ey6y79glg7ehm2rxe4hp3m0pgh44a2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1wj70xxxx648ess9unqcu28r0czh5lxkehqpyvq",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna15c6s26nw3h62k3jn7jf0xnj8yn5myg5zj3llya",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1e3dg9wpxq9gkygdfessy8mwfs2cka6uqfy3345",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna19xxs503q3xe6p20tngk4qa8shlp479739sly2z",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1a2v46cd0h25tp3hnwukk34q43wue9e482u4y8q",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1dwkhyqsgr6mxa2qf70rv5mpdch9vr345tsmlpm",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1r7up4azsnmprakycclqrh60phvq6zptq7zh86z",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna162acrrzhgz5jkk653t7pq3ae3lkf9djx3hm08w",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1w3wevxag48zdu8e5tw2e6pylfsurcqjvajtya8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna148urnfde0er7teu24y3am66mj4xwtdhsy53ntt",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna15pvtfel6qgqjuplmq0xgy5jtqpptu0c0eydv4h",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1p6m9g5xs0pjyy3hw7xt99qct0gczutpjnt3uzu",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1cfex5cfhzhgl5ew4hq5jakw5qweupkgtcc59z3",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1qscqmyctaagzzvxtffpetxv8gjcpp2avdut8kk",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna17xud5lqvfvstddky69rvzp9svnkg44upmtc3nm",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1sxpc2prw0a8m6p7q5uugch5m9z73wgzueezyn3",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1gqcg8v6kl8syrllq8se8wrrqwn3r74jktfe8ur",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1gkdvp5h66r68nh3mqt9853hfv02hvpjk92vgzg",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1hqu46uh4zs0srjh298wf80dkadd88v38u9jdf8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1kuv2z4hgcghf0hax55yzuggcrh0dr02sf66t7h",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1ksssy0q5dv5pm0zxjt28uas0m9dvrvhcw9lfd0",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1lhf759eusls00qxskzh0nq2mn2rfdgfaze4zcw",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1akdjlack85vl0gc3az5drjm29es6qadjw6v0rj",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1vjdsrzh9m8cpplzykhs4q2euvx2v9y5fkxwmjc",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1tqywev6xmvrnagfq57c0h5susdy3l789rumufz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1gz4vwx2vjnug3lgn2jkvs3ja3kn5w8y4sa4rx5",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna17l9hesuqq37ygns055sv3046y557dzxpp8pkps",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna12j56lpvu83aqnkunmhxtj56ttyvz82yqpz6ac2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1z9jnd6wdy3e67ljh0r095t6a0fewqrqjxdu3rj",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bcna1h3adqyrsc4r6klext4at8agpuk382y77jwjy0y",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        }
+      ]
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "bcna1qx78y697mgc8sxqslv0fd5pm8lme5n2fagcx5l",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1qscqmyctaagzzvxtffpetxv8gjcpp2avdut8kk",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1pyrnags7c0n74d2ffcnlyyjyr5454m08lujsfk",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1pgcd9rv92lnhlrhjsull3lvvvwyq7lfmvxp2zt",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1p6m9g5xs0pjyy3hw7xt99qct0gczutpjnt3uzu",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1z9jnd6wdy3e67ljh0r095t6a0fewqrqjxdu3rj",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "8000000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1zam8dfxpu89v8r7auv797n0se7xm5jmrx74xl9",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1rkcez03x6mpe3kwkdakzx4uud7xtk9vjglfnn2",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1r7up4azsnmprakycclqrh60phvq6zptq7zh86z",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1yzw9hrqul6r8kxjtyydnnw5pjc7s2jev8q0f47",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna19xxs503q3xe6p20tngk4qa8shlp479739sly2z",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna19ffw6z4t69xldxsjakjvzkplpqjajye3emjnet",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1xyyj8nnftzngpcttcjspnpajaetz9n8jlu95ak",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1xvuxv4znmmeu96ulxhldvyt32whp57vhyzg5vh",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1xsczxvamtywlw5n0ctd7ayykpgtm08f8l3ty0y",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1x5y39pyh3nt8d0tav6fqv98znfx3j5302uhz7m",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1x55e50cmat7z77ag6tp2ku0pgl88ujhmylxhjm",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1xcfxq59q9a93pkwp3falgef8wwrehdzyszyzwn",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1gqcg8v6kl8syrllq8se8wrrqwn3r74jktfe8ur",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1gz4vwx2vjnug3lgn2jkvs3ja3kn5w8y4sa4rx5",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "134800000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1gkdvp5h66r68nh3mqt9853hfv02hvpjk92vgzg",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1fdx7f9qfs3gs4497d9l34yk3ssaefywkl363xs",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna12j56lpvu83aqnkunmhxtj56ttyvz82yqpz6ac2",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "8000000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1tqywev6xmvrnagfq57c0h5susdy3l789rumufz",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "177000000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1t8yky3wexwncwsdqvdet2e9l4drw69cwcgw3f0",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1vjdsrzh9m8cpplzykhs4q2euvx2v9y5fkxwmjc",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "10000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1va8zvheff55wl9s73x9grqvue954gy9r2zeuv2",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1dwkhyqsgr6mxa2qf70rv5mpdch9vr345tsmlpm",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1w3wevxag48zdu8e5tw2e6pylfsurcqjvajtya8",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1wj70xxxx648ess9unqcu28r0czh5lxkehqpyvq",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1sxpc2prw0a8m6p7q5uugch5m9z73wgzueezyn3",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1se37pze66rt6z28zww7wxjp7zzxmt8qpsl7rc2",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna139p2eyf5pqwfx3t2he9fh4ezvep0epl84ezjr7",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1naxkc59kgzrsjhw93f3gnza57dsm04qa9pghts",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna15pvtfel6qgqjuplmq0xgy5jtqpptu0c0eydv4h",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna15t72dy6racfdj4qqssrvq6txzl63xedn953vfc",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna15jus97th8852n4ce8u25qle6xvj2nrju779dmz",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1540m833cyt7r5lr5l6mnp4pnhqvqdszfxjspgk",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna15kpf5m64ey6y79glg7ehm2rxe4hp3m0pgh44a2",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna15kuflehyp0jx22tlnt6c569cjy8hhzygxw5sh0",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna15c6s26nw3h62k3jn7jf0xnj8yn5myg5zj3llya",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna156k4af5m23ggvaf34wserlz4g4ffdrnawr0qa3",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna148urnfde0er7teu24y3am66mj4xwtdhsy53ntt",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna14dz7zytpenkyyktqvzq2mw7msfyp0y3zg48xqw",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1ksssy0q5dv5pm0zxjt28uas0m9dvrvhcw9lfd0",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1km88duvfjhq4cda36cf75kgfrv89k8mcxs6sdu",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1kuv2z4hgcghf0hax55yzuggcrh0dr02sf66t7h",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1hqu46uh4zs0srjh298wf80dkadd88v38u9jdf8",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1hy4w5gwzwt0gfrtnu9zesf8dnwjukt7qdt0x86",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1h3adqyrsc4r6klext4at8agpuk382y77jwjy0y",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "8000000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1hmjwnv96eg30mc7vg2wes7eu2esnk9uj5nvczg",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1cxquq0dnnx0l4jf0qajv2l3ftv3388j7em5mhe",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1cfex5cfhzhgl5ew4hq5jakw5qweupkgtcc59z3",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1c6eda384lvyz62u595exa52wkqexsevnnvman9",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1eqjc8mnw3h4xqjj4c854c05guku2k29wg9xywd",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1e3dg9wpxq9gkygdfessy8mwfs2cka6uqfy3345",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna16qzasjnw39p739cj0zt6yr496ny6a8m6u336p9",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna162acrrzhgz5jkk653t7pq3ae3lkf9djx3hm08w",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1mrn27q09tmd4q9mfayrcjfu70gwwsfhzj5krgq",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1m6yv2etcmtzglfvgfvm572uxxfa7ufykd56prf",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1mmp952nf6nhu7c27sx47jesgg7xwpmqt73wkq5",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1a2v46cd0h25tp3hnwukk34q43wue9e482u4y8q",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1akdjlack85vl0gc3az5drjm29es6qadjw6v0rj",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "10000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna17rd604fzy0hn4e6d7q4qwavp86a7xmv0xgxhyh",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna17xud5lqvfvstddky69rvzp9svnkg44upmtc3nm",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna17f7lzdlxau3yvj9feemkfu4twq76mv3k2h8988",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna17w782tdtasmr3gvm72rjcyn5p2856dpk0ms9xu",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna17h7pyd533vfznj2cfmmfrdlzyxx4qwjd5q37zk",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna17l9hesuqq37ygns055sv3046y557dzxpp8pkps",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "8000000000000"
+            }
+          ]
+        },
+        {
+          "address": "bcna1lhf759eusls00qxskzh0nq2mn2rfdgfaze4zcw",
+          "coins": [
+            {
+              "denom": "ubcna",
+              "amount": "100000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [],
+      "denom_metadata": []
+    },
+    "bcna": {
+      "bitcannaidList": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "ubcna",
+        "amount": "100000000000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Microcanna",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1ksssy0q5dv5pm0zxjt28uas0m9dvrvhcw9lfd0",
+                "validator_address": "bcnavaloper1ksssy0q5dv5pm0zxjt28uas0m9dvrvhchcwfhm",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "VEHsB/NXjQVewQ5pIrews2xZTfEiDOdNKCijR0bBNMw="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "03f267eb4022a5a91dc4761e702a5d1d92901bf4@192.168.1.3:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AvMFpl8cY71gG1NLWe3tP33vSyf1WfQtjbz4Tc59OLdu"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "G12s8mm+nU9CqOIdscjx8he+cxmSm8j9rz+0zb2E+4kb1wSq76UMilhKtdichcDQZkXsFkHUGwOb5L+P2kwHsQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "The Cannabis Grower",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1km88duvfjhq4cda36cf75kgfrv89k8mcxs6sdu",
+                "validator_address": "bcnavaloper1km88duvfjhq4cda36cf75kgfrv89k8mcldtshg",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "XZ9+ASRtJC1pRP9xF6MtGZnXBWnmWnUFqGu8F1FGNJ0="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "0f42474822f65d3955d91b910f172b8708418324@176.223.140.165:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AnuPXVUAkTd+U3V/bOo4x12abLi4z9dD5Tn092l7oHQ7"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "4vSqV8Ai2y6Y1J+QcOMHvHjccstoPOPbR5NVMt2rI1YBiacRlHWIqX1iGjWwmeNIU21Tsdesi81NFIKVkQucsQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "BitCanna",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1xvuxv4znmmeu96ulxhldvyt32whp57vhyzg5vh",
+                "validator_address": "bcnavaloper1xvuxv4znmmeu96ulxhldvyt32whp57vhale5kr",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "wYMcAVd7NS95/CttPxBDqW8k8X4OzKOKDfPTz+94PvU="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "8e241ba2e8db2e83bb5d80473b4fd4d901043dda@178.128.247.173:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/xYdcvsHmu1H2oW2qJKlIFfs3Nkv1E3oCPwPoQQ4Lx+"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "98vvW98Rw61iuAhAhdln8M9d6bon67+A0srkwlUyMWMNhg4bNESrdEVWONhNGxSjE54Xmpw1EXQamyBUeisWMA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "brightlystake",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1pgcd9rv92lnhlrhjsull3lvvvwyq7lfmvxp2zt",
+                "validator_address": "bcnavaloper1pgcd9rv92lnhlrhjsull3lvvvwyq7lfm4ms2cl",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "cmpAxTOGm7r4IGLGBsOIPz+LG/WwJRti5jZ1JhxSxSc="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "14b89bebb8d380b15cc8c1fa6b1c53e3caa0a0c2@157.90.240.131:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AzB6im+zJfMqRtV9POUHSRI2EA+b6Ypuq629G8V0Qb71"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Lxd4qdTPpS2obe9+RtY0IRJ4Wc1yqPbK2Qy7VRtzqhYOh+TRaGOJlpEIai1POIx4Y3PW7UKLxGJEkvl/BOu3WQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Stakely.io",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1cxquq0dnnx0l4jf0qajv2l3ftv3388j7em5mhe",
+                "validator_address": "bcnavaloper1cxquq0dnnx0l4jf0qajv2l3ftv3388j7qx9mdd",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "kUZu0TcbCOk+xeGVBxvipvvhUlZ/DraxkKjqfkH1p1k="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "1b22b0212d2296f7927e2c2ee585c9a81075900a@172.16.0.15:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AtIgJNClO9MnLE+HNhH8wajstOe6IbCrSqN9EiQPQJHg"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Y+L2BHvfpoM8MXsSe7HPrrjYyyFsU+P9UpnG4iXpqUEL3DVbXRRRnHhHGrht6PVLItvEc5aqhvnymKKUrl0wEg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ramuchi",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1zam8dfxpu89v8r7auv797n0se7xm5jmrx74xl9",
+                "validator_address": "bcnavaloper1zam8dfxpu89v8r7auv797n0se7xm5jmrlryx93",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "t8OMJqg0H1TdWw6FizLksB8Po05At0fQQGSvHvPWh+A="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "1cee51eb4783dbade6ce4ee451b3e7d383307064@162.55.169.85:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A8IrI9eiG99xxr8HY5guoFzX3iaZxCDVOD5/dofpUNqM"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "ruANJ103vlpEjrAB4n2fZhb4po3Ud0VSUqmwCKNvZj1X9fs2kQ76VG2b9uBkVVfyk8PPRyN3YrGj5GRVPo5WoQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "aliefaisala",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna15kuflehyp0jx22tlnt6c569cjy8hhzygxw5sh0",
+                "validator_address": "bcnavaloper15kuflehyp0jx22tlnt6c569cjy8hhzygln9sdm",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "YLuOhMLHl6D9T2ams0DM7cJfvigxQUUkafjD9bXoMOI="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "217335d5926d0a1d3cf3e58213993e2137a912a9@161.97.179.101:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ajc7m+vVv9zNkqa+Ym/CKoW5H5drfxyjwXkloyBVKHUf"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "k56pLsWOnM45eQ7ybdNRJCLtY0MbSGNtz1WbVGcisJg5J9QRN2oqku5f3PvzzIZwSLWsUvuMhmzRsGFrwQs1mw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Valeriana",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1x5y39pyh3nt8d0tav6fqv98znfx3j5302uhz7m",
+                "validator_address": "bcnavaloper1x5y39pyh3nt8d0tav6fqv98znfx3j530npxzy0",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "3ODq0Z/KspCRXUe0Zq8nGDI0k96iHcY7sYPsMyorKPo="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "21e733d766e3a1ce549ffc90c32c2e9eb6825a23@95.179.178.200:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AkEjqN96O2Zx+UbeoDiv+LnX6HnIevCAghBtE03v65oe"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "2liymz0ykTv3Eq1yElGI5sl0xiEPxDmTkmM9GcXlL0ZvyvJpVpEIB6Ymree+NIQ9jsbYKxVX3+pFPI83hKV6gg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "oxes",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna19ffw6z4t69xldxsjakjvzkplpqjajye3emjnet",
+                "validator_address": "bcnavaloper19ffw6z4t69xldxsjakjvzkplpqjajye3qxrnrl",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "gz4tpuXjAuf97V3aWnIqm8hwLlSIGHCEND4Bgrvd4Jo="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "22f47ee117bbf3f2c9917bde44eef73814e08702@162.55.36.59:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A5SdmEa+s0nwe5I1RRfslCBLC6RNcS+xgM1XQOMYFq/A"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "ghSuXmL6mp1tVjwEoBEDrw4awmlwQqVpSUtwpGummrMY9DZY3IDFGUimb92yrN+m4cT5qRU5kfe63LrvheXU9Q=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Peloclick",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1mmp952nf6nhu7c27sx47jesgg7xwpmqt73wkq5",
+                "validator_address": "bcnavaloper1mmp952nf6nhu7c27sx47jesgg7xwpmqt8vlk6q",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "I8m7+u2EP5gbFOQyRg+xUAdJ6b9F6e5yrPcyqdE57Wo="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "27b0ab8a4dcd62de5762a0f07aa2bacc58c85d13@95.217.206.246:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/WyDueEYY5DxO13MBeMh0Jn+0kwg7Q/PnpCUJs1iv6q"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Wp2jnSdQUOD8dzuvQBEgJzjlDHZNUQpYg247Q/O3sCNi6q4YyImNYQLFlI9P7Ob2ONVnDmoYz6yrdY5LlqBw7Q=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "YourValidatorName",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1fdx7f9qfs3gs4497d9l34yk3ssaefywkl363xs",
+                "validator_address": "bcnavaloper1fdx7f9qfs3gs4497d9l34yk3ssaefywkxvt3uy",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "UrU0VVzcYVix3JYaAgEv4u72CYHROAamEaxGPQEF1b4="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "29cf826171cad05565dac5a20fc0d76e636fbab1@78.46.87.246:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AkIYOriFKP8cLGnMBZ4yF2iLJgDMEQ84HZI95UaObMJn"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Q4LEZ+4tupHXE7RlQS8cYLP7EgIObgsiNNV+zUsVyzJltt+NFTvqwXppMrKlzEh2pIF1KhtX8zQaCzrZjM6XAA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "DappLooker",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1eqjc8mnw3h4xqjj4c854c05guku2k29wg9xywd",
+                "validator_address": "bcnavaloper1eqjc8mnw3h4xqjj4c854c05guku2k29w3chy5e",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "G95qbaX8u0OMEo8y8/gtQCs2XCTKeYaTb2ruYW8oVDw="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "2b09bb2bfb563913a66de22e0a5fe56080757317@194.163.143.150:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AnSNZXhi2yjBg0t8ALzdRXosefB5VWv9BWcmcm5O/xuB"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "CUF033SU+8HyHK20imOJPcADt6fOuJYrzhXlvg8TQhcTTV6tLGyTxg2IgVyAsPmHvB/WqsBqu1q6dQEgUqY/vg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "GreenBeacon",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna17f7lzdlxau3yvj9feemkfu4twq76mv3k2h8988",
+                "validator_address": "bcnavaloper17f7lzdlxau3yvj9feemkfu4twq76mv3kn2k9an",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "kAwWqADH7eQXcqxoEbibBUIaOzh+QuF7YMGFSeRUL7g="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "2faa020c2b6159b7e6457e33efbcc5aa23876815@80.208.231.211:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Apypvh+XYruVdzbEuCsZhQIuFJ0TyhW5fXumcnu/nTvM"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "+G3XCLGKijYZvNb5GM9nKDWxRS/oo4AYW03U1Z96Hs4kND/AQNrr8y0XuRlPKemyH8mbtOe7qycw1rGUxXxakg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Adorid",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna16qzasjnw39p739cj0zt6yr496ny6a8m6u336p9",
+                "validator_address": "bcnavaloper16qzasjnw39p739cj0zt6yr496ny6a8m69vq6m3",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "QRI9+6ej51HQW3L0qbYoyzj2ROR37ddhe8RsHQU+2QM="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "34589be9c3ea603a64ec394096730689e3ebd050@194.19.235.75:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A6F67vHp40W+nAbm7G0p3wLgrsXtsdEC3hvk6Y6nwGDU"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "+8LDekYtdtrKQouQxdSqlxN7murVnDRbLfeJcL75jAco/DTgx8BqDuU8Je4JwJcicMLMO4R4mg0pxbjoXB/Fmg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Roemer",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna15t72dy6racfdj4qqssrvq6txzl63xedn953vfc",
+                "validator_address": "bcnavaloper15t72dy6racfdj4qqssrvq6txzl63xednufqvnv",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "bRgHlCBpF/XYST9gq/gqJ2WqN2uU/+oUs8YobCxbOA8="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "35aaf02c163971eafe3c9aac19a2055a6c59f964@62.171.163.189:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A7Ui+OtdH3LRwVJeO7YM4dbe0wFwsh8Snmu8aZ83RIiG"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Q4xk0E0TLKjMiVxwqoVP3j/qsw/+OLb4RYfg7CGRVIpaCb8VDbLjX1/t9SI2164/lS6DsfoYGvlZemEiX4Zclw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "BCNAM00nB0i",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": "BCNA Mooners unite!"
+                },
+                "commission": {
+                  "rate": "0.080000000000000000",
+                  "max_rate": "0.150000000000000000",
+                  "max_change_rate": "0.030000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna15jus97th8852n4ce8u25qle6xvj2nrju779dmz",
+                "validator_address": "bcnavaloper15jus97th8852n4ce8u25qle6xvj2nrju8r5dpk",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "qcYd+UFZdWZitTCxHoXlg1G6RZ/kQTpqNdXAQimTRSU="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "50000000000"
+                }
+              }
+            ],
+            "memo": "3b7da5e40834299c2263451387134af588593a2c@135.181.95.67:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A9VSd9QOrDfVrjCow7s+Wi1CPd0Y60TN9NDX0dKy+g6S"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "VNzPc8tRZ0ZOmAAXlYOG4jZhMdqgO/ZzH4owyTyBJZ9grrWG2fTC1+TMs3uwGXGEO1h669Bta5GHhsiL4v0l4w=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ITA Stakers",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1kuv2z4hgcghf0hax55yzuggcrh0dr02sf66t7h",
+                "validator_address": "bcnavaloper1kuv2z4hgcghf0hax55yzuggcrh0dr02ss8ttyr",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "9Ksvo8xK55iJrc+33h/ojiKlnXWEcwk9rx2S6UCl6CQ="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "3eef3bf2bb53a830756cee4429bbd9a200a3ad1b@172.20.10.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A621DLnFf6BLWBzw982SC3X0t5ASEIIuH+geFTr+8wmY"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "5OkQzu+taB2VVyIjYrbcYwuqrEdbtOEzXB6zZD4tcnIlsb8ztufESUQ5HadlGPeFzCe80qKtZuqXPwcfr9SBgw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "OranG3cluB",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1xcfxq59q9a93pkwp3falgef8wwrehdzyszyzwn",
+                "validator_address": "bcnavaloper1xcfxq59q9a93pkwp3falgef8wwrehdzyfl4z58",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "wzwGoXd6aI1pXAMYqa7caVFCcvRzacCF80Wcoh3e/KA="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "40ba0e7d5bcb63095dffe825b08ffba85887adb7@65.21.105.60:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A9OfMofTC8xO/4UUkppYyriAT1/mf592Sj5NYD+uR2SU"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "u18A3A1yZ9zJA8nUy6ppqVKgE/xFneCbd36yNp8NI+Z0fU43SSzhIJeUptyE40sAEiu4KER/+G4NQ1q/1y8hCg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Novy",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1naxkc59kgzrsjhw93f3gnza57dsm04qa9pghts",
+                "validator_address": "bcnavaloper1naxkc59kgzrsjhw93f3gnza57dsm04qauueh3y",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "5l3WG3dfjLkQ8FGRjc0Si+KhHvd03Xn+luYCCzsI1LY="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "42dd0eeb50510e5ad71ea7c9183bd2a0619000e6@135.181.73.109:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A7ZaUOiX7apoIRKACkR+VToedv/4vWaf5YoZIv1HF1Of"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "W5YMEHLt+7518b6GIkLANcGwj85CcwMZEjv7LJVGu1t29ZayvAc2JTEgXGwxf/gXiY57R5Lck196EjhI2MEVwA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "3Tekos",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1hmjwnv96eg30mc7vg2wes7eu2esnk9uj5nvczg",
+                "validator_address": "bcnavaloper1hmjwnv96eg30mc7vg2wes7eu2esnk9ujdwaccu",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "LmR4GVRosNeHJTwQ7ezXvGDNZtsGO8dsQOzmRotJp10="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "50f8024e84a58a9a9439563534c60365a915126e@192.168.1.130:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AlkfjJS9tauBST2kvQEZeoZRkW/XoPJebdy0+tAH7Zcw"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "BVnWUVkGlrXPhdFQt05jJrxFOkdl+km1LRri7s+jB/Zzxomm7eWhAVjWgD1SoL2zRBpBVnOjaIBMUvCe8aOVgQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "FreshBCNA",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna139p2eyf5pqwfx3t2he9fh4ezvep0epl84ezjr7",
+                "validator_address": "bcnavaloper139p2eyf5pqwfx3t2he9fh4ezvep0epl8vynje2",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "DLtR7JujwAbGRpZIPxaXZc0ZutwAA+g/bIw4zTiEu60="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "59023de705548d92b5c45c12be72237147a392a9@209.126.85.26:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AtHbq5Y8d7imsM+OMZpQONUz2d0aNlLJ0xz4/vsUnrK4"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "LtM52P1XXtjGa8abgbQ+9agC+0+lXv64fBfnYl+FcZRHeGETzgL99RlxRCSF1UNpglUn5MiO5aN0nL6U7naRZA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Flying high",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1xyyj8nnftzngpcttcjspnpajaetz9n8jlu95ak",
+                "validator_address": "bcnavaloper1xyyj8nnftzngpcttcjspnpajaetz9n8jxp558z",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "0YtS/NNGnWAYUgBQG909yy0X1HWdNJjtQUybS4ORvXE="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "61298e6659ccf2ec600995a6979b59e25211033a@207.180.207.76:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ak1bZp5bjz1edWlOHHwdAEuAw4upGypz3chDbv1cr6Vw"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "AUcIGHsxRE2MmOmJzvKw8mzvJiiYV4M4gZumgV3DDucCW4bs5HSPzT7kszlYzKmGkW0KpYnjffZ9Cwc2oCPJsQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Army IDs",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1c6eda384lvyz62u595exa52wkqexsevnnvman9",
+                "validator_address": "bcnavaloper1c6eda384lvyz62u595exa52wkqexsevn232af3",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "0F+nTHtAG0Y/8RJloZFNsB9hdvOkwwyGKml1YH9EH/4="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "61b85dd73fa3299a9b7694a2ec17b3413cb04eb9@161.97.122.216:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AoNi8/mJxH2+toz22903DJvT9JDOhxI9whoeKp022D+l"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "0Dv4Qswof6M38SlrUfycCaeI/JI6Ve/gEZvyCt52W1NCSh/T1FTUqvzs8o44syOTJZb/yE6xXUJ1nHdPBZT7pA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "dreamstaker",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1x55e50cmat7z77ag6tp2ku0pgl88ujhmylxhjm",
+                "validator_address": "bcnavaloper1x55e50cmat7z77ag6tp2ku0pgl88ujhmazhhg0",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "XagAqxAhFxL5EZqrr9SKs+1nBD8pCgiJZjiTxxSHjsQ="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "631bef5dded4661b2525a5cb8fef032b0ca61d01@65.21.105.205:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AtndBuTW35KBc9rsiHMbtsOrBVe6r2a4VCCoZrxSqRLM"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "V2BA1L60SjBo+FCmHqNt+vTDKBSrOpF59X62h/1pR817S7iI39A4WDCcm1AvJMO+Wzo7eGflcQx2l+hiPYxrLg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Barneys Farm",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1hy4w5gwzwt0gfrtnu9zesf8dnwjukt7qdt0x86",
+                "validator_address": "bcnavaloper1hy4w5gwzwt0gfrtnu9zesf8dnwjukt7q5k7xaw",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "xX3BdVTHU8p/FDAuzFCCZgXBWPwo0LBndwihuqw1jbI="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "63d4872c1319149780056750381b0852527276aa@178.62.217.28:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AhEs1rXCitu71mNO8uDxDpRmjP5mBfKq9+llmchG6544"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Z9Tlu9oYCmVStb3HtZlgvs1Ak9oiE17b5eWzbw1epd1ylvXX+2gaTgtYOJRSoTYbNHj9sXY2/LdczZxQC8s/WQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Tuzem",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna156k4af5m23ggvaf34wserlz4g4ffdrnawr0qa3",
+                "validator_address": "bcnavaloper156k4af5m23ggvaf34wserlz4g4ffdrnah77q89",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "B8vvVh7DT5OFTtf1bJt6T9aKZzVmgXHi5dpi4p8oHig="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "684ed6c77f21c22edf265cad220b5385dc80a1d9@157.90.179.34:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ahzat6jm5N/He53AYpmssribAxF7HFLZLpHblGFJurJH"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "vnQbBChZRBVgMCUlr2WPHGsKpIRlSFVWR2mA9fsrbFAV2EiY6Uuc2Jj0TVxdF7d8YWQbNhz5HepXZgsDpFcqKw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Bob Marley",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1pyrnags7c0n74d2ffcnlyyjyr5454m08lujsfk",
+                "validator_address": "bcnavaloper1pyrnags7c0n74d2ffcnlyyjyr5454m08xprsnz",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "rVo75q3nUMrwrKQvI9gVtZxtdGLkdN1/VgyJiLp7HZI="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "69af1eca5367009fb81a88366ab107b4a3780433@168.119.225.218:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A2f5raII+Mq7MpRDq2FO0INUuC1LoZZMStxqS8+SHgh3"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "tA/72/6Mf3sp4puFWScbLt+s/ShmFmgei4c1Q2RuiucPo7p7ZuUE1FTW4Uw6ktxWE11rvgquhKm0DpzJCkLFXw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "firsthellresistor",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna14dz7zytpenkyyktqvzq2mw7msfyp0y3zg48xqw",
+                "validator_address": "bcnavaloper14dz7zytpenkyyktqvzq2mw7msfyp0y3z3gkx66",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "LEZuVaFSTYDkyZ0KyynKSDr0kxbsm3J4TqAjQ3DNcT4="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "6cf35ff44f46509a864eca5acd52cfb911e3705e@68.183.12.219:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "ArJvcOEKEzB9mAbXNszqlU6h/1bNyaLPl4AWfjGpv3/6"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "FcILcQk6Lm+YJsrkHId9tif9nPoI5fG190Obw/Bz9whVKaOxWQXZffOFqGf83cZLa/dLvtXGydLJER9gYFsIkw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Staketab",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1qx78y697mgc8sxqslv0fd5pm8lme5n2fagcx5l",
+                "validator_address": "bcnavaloper1qx78y697mgc8sxqslv0fd5pm8lme5n2fy4fxwt",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "1OaofYiCZtpeitsO7G98TfkmzpNOEa2HTjQYYG1k4LQ="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "6d1e0c9cf06e5d4ef11884819ae13243b15a952f@65.21.181.154:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AuTlZh6CL7yzjHro6aBgCMy0e49Adu7cW4IaEAIYr8+6"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "l9UPpOFEuY0KPA7gDtIGtcLo7mzMA6j8gnde9pveI1xED7jjyH3N9ZUDaLgPwosZPkXGMHGCPbyV6qAOaxUB/w=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "donadel",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna17w782tdtasmr3gvm72rjcyn5p2856dpk0ms9xu",
+                "validator_address": "bcnavaloper17w782tdtasmr3gvm72rjcyn5p2856dpkkxp9ug",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "UGtwk/E7ETOAmyXFkCyuRxOr2Nk+qoO/Ov8qh1tc0YM="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "70a113ccb56a141a36614e3b79245ccd26678437@178.18.253.200:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AyTG9eiJ4n9jYodSmFiGb5DrMJsfMg6OIY+XjSy9535q"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "pzP+Cn2HP7qFSnBu7dBdt3Oh5cDwwrSsxzpwjnj48FwWD9aCSIo2KXjPAofW3VnlALqPD1hxgUEtH4l2/QCZkw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "STARDUST STAKING",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1va8zvheff55wl9s73x9grqvue954gy9r2zeuv2",
+                "validator_address": "bcnavaloper1va8zvheff55wl9s73x9grqvue954gy9rnlguk7",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "htzzVAJkX6zjimQlMX0iYcNphnzyrnh66YSHM3OFdck="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "775277454966ad78c67212f0cce030de880ca1fb@178.170.46.179:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/gpAX0n1jb7e4dr1as/5AmH7iy3Z5lAHzed6f1Pab90"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "db0gI838rpoEPGImiuhdrL9PTBaN129qBpHP1dqSgzwOtDlX7Us7SnbJhE6IuQlifYZSFrd4hSqGloR9mmxavg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "hammerfest",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1yzw9hrqul6r8kxjtyydnnw5pjc7s2jev8q0f47",
+                "validator_address": "bcnavaloper1yzw9hrqul6r8kxjtyydnnw5pjc7s2jev7a7f02",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "LdRcBZ2ePwVOXk0VhceBRCt6Y2IMsJMZbVw4x4cseF8="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "78468ef9da2adcf5b9d97fbe103659e5d5ec0b95@173.249.39.174:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AjTYQxwrHwJMH0k5Ysi1Qa+SzlR4ws6sJjJ8PYUjFQ63"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "I0ozD/zJd6Mw9XJ7FgXBfn8uryEE4ZdVmHodTIoH/EpLojlG2Ogy2kT9wyncwBPPghkwXT16qgcimHk5uqAOQA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Syd",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1rkcez03x6mpe3kwkdakzx4uud7xtk9vjglfnn2",
+                "validator_address": "bcnavaloper1rkcez03x6mpe3kwkdakzx4uud7xtk9vj3zcnf7",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "aCHmQkb5CteeERMkdvWbC/uIcCE11XwXslHKQQj1d0A="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "7d95c34e3d91c2ccdd893d72eee94eda5f5ef827@195.201.35.1:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AjYxlTNV6s+H92iiHY1tSuzeKygXBbXaHXpp98TeLYz2"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "KfS8+hrwt7fgBKPnnluyt6VdEY4zKGhn8yfZoX7qMKBCdMTu5Dra1bXOGE1ZoFTDLCy0xpISyN7NVdbZdv+Y3A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "n0name",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna17rd604fzy0hn4e6d7q4qwavp86a7xmv0xgxhyh",
+                "validator_address": "bcnavaloper17rd604fzy0hn4e6d7q4qwavp86a7xmv0l4hh7r",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "/ImKMvxb9py5G5lGJuHXwsXELYbaHw5ok0c0biBRBnk="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "84e0056ac69090c92fd2cc93b53a02930f32b671@65.21.178.170:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A3hcExY0LDYanYJb0R4Ew2ya+pKHPT+BRApmTzLnpV6v"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "+f+7dPJtQ+1o2Ua2iK+B23aB60mtc20nt/PXkvlzXCQhIStTCBdw8jlH7tJ6qv97eDIm4qIA1c/KSKMHXV+4KA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "DavValidator",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1t8yky3wexwncwsdqvdet2e9l4drw69cwcgw3f0",
+                "validator_address": "bcnavaloper1t8yky3wexwncwsdqvdet2e9l4drw69cwp4l3nm",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "CxolUVFXumlI88dDrU1oPqbSE+sR7CbC+eCTdAFCGaM="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "8c997251bbc7bf79422701638c1386947060cebc@161.97.157.15:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AkztLWBgt1Zs+eCWCE2zRd9Zyq1NUowwTsko+x6MpkcN"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Ebw5cyjqO2+j2naNxCEYqEw3YszcEkLyjNItu9yQ6WJSP0OYq+KIkrVv2uu0J/Eslznp+FIHODM7gyTaoDXI7A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "lux8.net",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna17h7pyd533vfznj2cfmmfrdlzyxx4qwjd5q37zk",
+                "validator_address": "bcnavaloper17h7pyd533vfznj2cfmmfrdlzyxx4qwjddaq7cz",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "V6ndc5orjtZ43GGYRRHVTuUo94xtzyevIDLHgAFoxsA="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "93374133c92e76e38cfd5be24a07924d794c60c7@213.246.39.152:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A2wiJ3uOtw/0Risw3kqIu27ztdlbFDuCpLPW84E8LO5W"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "uV8UF5mXuSy9yblmgmdA2E+Fy08h1WvO1/sjosWee14AivrFi9HOGKyYQxLr9uTcTouV9EhVSjSZUVYCydXFgQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "drkilljs",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1540m833cyt7r5lr5l6mnp4pnhqvqdszfxjspgk",
+                "validator_address": "bcnavaloper1540m833cyt7r5lr5l6mnp4pnhqvqdszfl0ppjz",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Gq2ETjpf4pZKQQQMjpYzcgQhqqoyakGxdlYhTglkNXw="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "98da24472b4253ce3a956ce5ce2aa1e1d7b103e3@161.97.160.102:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AmLQbvHEHV5HLjPJOZ2ENFcO2pN/0Xr5X/KoGune6Ykq"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "wZPmFS/SPfcVvzcA7rUdMpxkFKPG70fuL9UOAZLXpkRXsQLcOgtHnmJLeohGbevErsvaOEetSsiqw7pmyhvSVA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "superjax3",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1se37pze66rt6z28zww7wxjp7zzxmt8qpsl7rc2",
+                "validator_address": "bcnavaloper1se37pze66rt6z28zww7wxjp7zzxmt8qpfz0rz7",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "oaH61yMWfetl/hUf5e3s7cfTGjonaSPndskvberc6aQ="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "9da8986dbb47cb72d5cc71bc8396c264dc6593b3@10.128.0.11:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A7NQZGOCQCCbr4XQeKjkOW8zDBP7sLQzs7Xfr+J7KUtN"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "FvwVEuO5ABcaAvM3Y8QgQy7VoqiC/cmS4ONMztyjKzhMtU91Pk+rFZxt7gRlHeAhupL93J+baVJpGFFsx6mJ2A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Alex (Bambarello) Validator",
+                  "identity": "A713F5C07C453731",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1mrn27q09tmd4q9mfayrcjfu70gwwsfhzj5krgq",
+                "validator_address": "bcnavaloper1mrn27q09tmd4q9mfayrcjfu70gwwsfhztf8rj5",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "pR6ePOiXoR4ynPZEKohREtT6kEyomvbA8rF0cKlCcng="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "a60f5ce8cd0705c8b9e052dd91ab7d58ccdbbfd9@94.130.136.77:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Al/I1V7V4k86nKBvjzO2MyO24K/ZhAxyWj95Fcu95VF2"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "EHYUkfHFpE9Djfj89KOGCrwWKFoNS0EzF0NGnR9gMo0xq6rhcX50SB3a9HIMjX7yLUf2Nx6TrB8wAsQ/Vi2pew=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Minato Fund",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1xsczxvamtywlw5n0ctd7ayykpgtm08f8l3ty0y",
+                "validator_address": "bcnavaloper1xsczxvamtywlw5n0ctd7ayykpgtm08f8xv6y4s",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "No2Ckpes+aUvSgjD1fhhL3XkRyHTkObnyvK9BXp9OL4="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "a8a69dd2330023fc7f85011d10da4b80d77323ab@65.21.63.139:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AgXlvF+gLTl2pGnp1h4PlQaCw3U9VsL73uJJfLHS3E9+"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "2HUimgDRSHdyrHZB2h2EUTMKvYV7rKZT4WOLJcdRVHlQpjKfORlLrRNPwcQiHE0hLijU/JKAyp4mUH5WZTedFg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Fierydev-MCLB",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna15kpf5m64ey6y79glg7ehm2rxe4hp3m0pgh44a2",
+                "validator_address": "bcnavaloper15kpf5m64ey6y79glg7ehm2rxe4hp3m0p32y487",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "6/JZPEVg/06uJU8eZtjQQP60PAoGro7FOZer08nBKEM="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "a90faec929d67378ca4c1bc0a7e7081c9331f232@178.18.241.220:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AjF7Rwdh0wJwBcgKs/CJuW4T24gAorhaYsTALhIkUWGC"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "zI33v4wcMbmYce5Fs/Bcnf2kWj4uzMygPv4Ms+NESz8JyYlW4hWA5Iy4FHbaJtn7JzAHamqnHib8958tXUPnTQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "coriander",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1wj70xxxx648ess9unqcu28r0czh5lxkehqpyvq",
+                "validator_address": "bcnavaloper1wj70xxxx648ess9unqcu28r0czh5lxkewasyk5",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "GC9x/XdVciZHJLwpwzjmPeupwz47ycQ3oEhuYh+Ou58="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "a927cca1aae5631dc8a0c7bdf78df2853dea6368@116.203.44.251:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A+aT4agtpo7ggwpB0wyvzKcK6QyHsmvZyn+SIqplXDc+"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "bZpidtkfPls/vpedpFeJopwa2+BugGPVjFJjLfjL3tIagHGBx7wJzA3Z3VrbbWqV+R9x1koh/RzjoVXOYFxGMg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "OptimusAlgo91Validator",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna15c6s26nw3h62k3jn7jf0xnj8yn5myg5zj3llya",
+                "validator_address": "bcnavaloper15c6s26nw3h62k3jn7jf0xnj8yn5myg5ztvwl7f",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "kuUey71uaJ0Ufc0r1dacAlt3OyZUz+XqhPdCe5ca60g="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "ab1c5a70858696d84233a1b13ad22480bf53109d@173.249.27.180:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/WvkGJg4OozDNggdAD2Pcvfd5/LRgQ0zIzEPo+31iSC"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "AkE+m59i7u3iL4SXPxJtyhX9GH69PZ4LLxw9BGHgLIZ0auA5vffdU7D30RG2UQPIBxCjR2mgXNydykXgSfObcA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "suzumiya2014",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna19xxs503q3xe6p20tngk4qa8shlp479739sly2z",
+                "validator_address": "bcnavaloper19xxs503q3xe6p20tngk4qa8shlp47973udwysk",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "bJ5a6eJ+3W7izy06egdZ/9dHRUF+bhtZdZV+ggToGso="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "b47b6b96d4f7f6778ed0db26d4bb9968e2fbe067@45.32.117.64:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AwXFOsOd51j339Hi2zur66zeaOwnbPnkRsPp+odCEfjL"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "PqEJq872naKMeJzGMa0iMXtOBTjtqo3p35jUuUEiJ542/A2TSOcv5M0Zf/8pYYPGfVTlZxX1bDylMfPhAD7gWw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Riccardo | Forbole",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1a2v46cd0h25tp3hnwukk34q43wue9e482u4y8q",
+                "validator_address": "bcnavaloper1a2v46cd0h25tp3hnwukk34q43wue9e48npyya5",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Hq6+0j63go2SExiC56UEr+3T9RjiR3wbNGGYnlWPWwg="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "b6023e2c87f39733dbbe915980d9a6f1972a40b2@139.177.176.217:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A8B1VyBJPTD4QvlypqfvhYmMcNKfHnlVVFwUMs27yxHN"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "/+vg6V/YO/UaOA9MVTOGcLoP2Ioe5LC/wVYE87XTq7Rq4jyF9iJfLvCWSIzFQo7IbeVnflxS2EwvXHn8/Vs0bw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "StakeLab",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1r7up4azsnmprakycclqrh60phvq6zptq7zh86z",
+                "validator_address": "bcnavaloper1r7up4azsnmprakycclqrh60phvq6zptq8lx8qk",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "fY/CEenEpp3Uj7eVauq/q7oHRj1Tvrd4GMTK76UXsec="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "c1096d57e07171be3d94015059b18827072ace6b@92.222.25.18:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AnFRFkB3OjEq15h+7K/uM8ibOGDGwcwUaEIDCJTkNF33"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Ml8PQSnTvnur18sB990FQsE5cVRulheS2sd01DOjALMo7szd4OJMtMHvqBLMVEpMXQmxM6b/YAVhC/31WM6VtQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "atmon3r",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1dwkhyqsgr6mxa2qf70rv5mpdch9vr345tsmlpm",
+                "validator_address": "bcnavaloper1dwkhyqsgr6mxa2qf70rv5mpdch9vr345jd2lm0",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "d5+OqD3E+DNV5pOTkHBclr4HYZKKJyR/cyfXD+M/ars="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "c2e429d31cc98891170faeebef312d472aed0b45@134.122.78.234:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "ApziGOvEeVpJAVxVn3u3/Ks5qmRFLN8U+UouM4WyKO7V"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "bXJAw3lTiI/BewpC0FvdDl3qNVUOkhdeCOWuwYuS4l8M/Uuy7Hz7w9LZP9EdGGAwraeVc/OyNNIrpTArEjmA2Q=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Noderunners",
+                  "identity": "812E82D12FEA3493",
+                  "website": "http://noderunners.biz",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1lhf759eusls00qxskzh0nq2mn2rfdgfaze4zcw",
+                "validator_address": "bcnavaloper1lhf759eusls00qxskzh0nq2mn2rfdgfamyyzz6",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "cI6awqnv7Nfk30CvMHxDnr7SrVURLHUrBpw0iLOpD+A="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "c34964e0732e4f09ebc741f0ca8cef5f73a2758b@89.163.215.210:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ag2BvZEHrMHPl2S352Flao5EPjJtMHIU1I38TnkW0zyv"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "wrRXNxhm1vAfJyMXATtCrkVob629gGVk44H7PyC0B81Zh2kOAkzHLXhzR+vlmpbeNeMWXNh4UVOwco1/czSdAQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "c29r3",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna162acrrzhgz5jkk653t7pq3ae3lkf9djx3hm08w",
+                "validator_address": "bcnavaloper162acrrzhgz5jkk653t7pq3ae3lkf9djxg220a6",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "CV2MMYvSb2hyFu3hY15QJBLf/8ZnjkYi0zphIV1evLs="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "ca9fa5d3b665c70188c352f7d75f9b735271eafb@161.97.107.10:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A4RA0t3jp0ihBqTDReMkX8nO62+fYusWS/Hy9NIRpyjo"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "OOh8uI0gtSI2d8GIDiECMqLSVrOB9LzKXt2BJESNBVxpqxOTmBghlgjeE2eO/Qcb+PsnuhDoKk90L/ZndQgK8Q=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "blxpro",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1w3wevxag48zdu8e5tw2e6pylfsurcqjvajtya8",
+                "validator_address": "bcnavaloper1w3wevxag48zdu8e5tw2e6pylfsurcqjvy06y8n",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "xgNjZlU8UMZwo0Bj7X3xa4XBBoZPhuntGMbK1M0Pn80="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "d2661337c6ca9158af147a9ffb53be2013205614@49.12.45.179:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A+IgQtAiPhZa9QhHtwp4UqtI5Yv0iu4pc+lgH5LWJAuT"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "/Iicv/Ps5O/9n4OJQ9WilnPKIjwSgS9zmof2codyXvgio1aYiizWOJ7TXk7IM/JWS7XphsVKZ2SGZMPvpVmaCQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "VladiatorLabs.io",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna148urnfde0er7teu24y3am66mj4xwtdhsy53ntt",
+                "validator_address": "bcnavaloper148urnfde0er7teu24y3am66mj4xwtdhsafqn3l",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "8VahSPA2saB5LWZ8D+GC3iPYR3Jk2uHW52ecYnV5b4s="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "dec6c88ddcc1dfc15612231b5c7ac296cc7f70c4@10.192.10.158:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A6kEC4IxWZM2ZkjR7Tz59ReiwDmSVL/rQ4nLcm6vg1+V"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Mmbs11xKhUbrDgAkhlnE0+vX7uEFtkUFICA1sTKbapZhC4pZ06ftNXBHmckwNSCK+V7+P9twszJsP4kERYDdAA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "TheCoffeeshop",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1p6m9g5xs0pjyy3hw7xt99qct0gczutpjnt3uzu",
+                "validator_address": "bcnavaloper1p6m9g5xs0pjyy3hw7xt99qct0gczutpj2kqucg",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "vRxu1ATVk90nVxkejuK9DrSyeH085PAimnqRtVqGmXg="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "e21062c7287aaa89f58a51ea1c12d5a274782494@85.214.241.155:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AyRmmHjZc/Eb6RIJRDyBXAMG6b1x16d6ULSCUko/xx4T"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "H6Y91W5pPn/CueRCzSYX9HEFI7mSc9L5h0GqiCZTHYEKeXQxd1Aj9B6NdJTIEMgmANqAb5y6qfZyhJqrnz52MA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Imperator.co",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna15pvtfel6qgqjuplmq0xgy5jtqpptu0c0eydv4h",
+                "validator_address": "bcnavaloper15pvtfel6qgqjuplmq0xgy5jtqpptu0c0qeuv0r",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "049MRh5UoGOmUsMy+S++kvRtz2twGuRRMU0ReKBsi4I="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "e2ebe86360babe892868a5d2799f2bed35d626df@75.119.129.233:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ayy+MESZj98LfW8uuEs5BlMX2pH96xbX/fa2/LO/PI5V"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "6b68dT1sEsSIBoyO5Khz8YBn6Kyp1FG8t27DyrBphbpCUVa8Sl8pLkKTr8VbGD3C6k9jBoVEt2v1uuBxGiAL6A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Comr8_Nga",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna17xud5lqvfvstddky69rvzp9svnkg44upmtc3nm",
+                "validator_address": "bcnavaloper17xud5lqvfvstddky69rvzp9svnkg44upzkf3f0",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "iC9QoYuW+FspE+bQSBZD5dli1CqGiczj54eLM04cUD4="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "f50a11a6ef20f3588471a9fb2c27e88d91c66c62@162.55.171.21:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A4RcOJOjjmpGGbzkEfG7qGGHf6AV0axCD4wE2AP1YKdH"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "sEtG/U4J6zpzrM1mhxTXNFP+yH4cueYKlZB/T1L7FvZcZQR8GEgXRBCocAVd71xbfHTEhRyaXOgb8oYPq2JowQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "z420",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1cfex5cfhzhgl5ew4hq5jakw5qweupkgtcc59z3",
+                "validator_address": "bcnavaloper1cfex5cfhzhgl5ew4hq5jakw5qweupkgtp999c9",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "cAazr+n8zp4qii/p3NXh4U6po5WUAMhfn07loV/CRkU="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "f6e46c6aca10e8fc793280e3e8d028309f9ea15a@95.217.239.120:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AhsU0PnK5FotnOFOWogjtLCqPEuvWEsms0Ue/ew2YT5I"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "98wc1RHxmwI7Llwx4FZ5WQQV8Q70Gn09pZUaLBysqjsFHootnhT9Sb4U1qwkLaU/wJfPPuBiqfFQ+tnB5KAjTA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "alkadeta",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1sxpc2prw0a8m6p7q5uugch5m9z73wgzueezyn3",
+                "validator_address": "bcnavaloper1sxpc2prw0a8m6p7q5uugch5m9z73wgzuqynyf9",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Bgz9gb6HbrPIyn1oP9PZEyVaLxmKSYaf06Vj9AN6t7g="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "f830a1cfdd88b94f6a49e6c0bbcb67d98b394c8e@64.227.73.118:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "ApecQTYUdv2V/EWuEdBwMl34J7oTdO+rZNF9l3aiO3Ee"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "e7xkQEgti4LhnwvXQ78soi4y0XPteazvJ0856rjOAjhkQT88QvZWUQEWMGMsEkxSy3kc4Hn9v2gZqZesWNLkjw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "KappaRoss",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1gqcg8v6kl8syrllq8se8wrrqwn3r74jktfe8ur",
+                "validator_address": "bcnavaloper1gqcg8v6kl8syrllq8se8wrrqwn3r74jkj5g8xh",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "b+RHWDgRVF/mEmp9Ji4NzsJMDcuvpIV154VreAQAITk="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "fb75505e0ca3b90015fc4a0bbc5fca811d738562@65.21.107.177:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ar9Z381RXECZOYBPsOJfK0IK/n3XEnnMRRKIlqUHVhYj"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "gxuxTRBD6C66gWXi2jV/D2yx1A/UPeTuDJ1nbZdWQWtXKw5FcRgBZTApBlpptbrfiJ7U3HFpbsuGvfzsj6CyJA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "STAKENROLL",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1gkdvp5h66r68nh3mqt9853hfv02hvpjk92vgzg",
+                "validator_address": "bcnavaloper1gkdvp5h66r68nh3mqt9853hfv02hvpjkuhagcu",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "i8Mnw3rHy8SOAMb/JjdJjIoz9RWYzma300BHYebDE90="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "fba641cfe3616a03ab3a8bbe67a877571f5abddf@178.18.247.140:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A3h5S2ZYONOPee3EcTE/OwWrdLNfo4TI9LiFQcD8rtRg"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "G4fzxjrzNyZ1pGrX/hnayHvK5r+sp82j3C1ToN9ljJcqERiGKaXZZjonWH4m1GidKeJjG3aUezKaU1pWgyc/qw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "BotD0tNet",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "bcna1hqu46uh4zs0srjh298wf80dkadd88v38u9jdf8",
+                "validator_address": "bcnavaloper1hqu46uh4zs0srjh298wf80dkadd88v389crdnn",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "no4HP6jxqlNj8sYWO4Fld/uXYvHJwf0ajcT5UPqT7nY="
+                },
+                "value": {
+                  "denom": "ubcna",
+                  "amount": "90000000000"
+                }
+              }
+            ],
+            "memo": "fc95a2d18e3d3626e537e81e0d31f79787f59b9b@78.47.109.80:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/wlaIqjczvyKdyHlerKJYSl9JNgdhcYla+W6LwgDKEq"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Rlzc+oqqYKZB0UGuInL93L42R+nkIkG+bDk42d2ZHAV4tZGy9XnR48ZiYOuMLiZPl6p+gk9JSrOZ3+MNG77Y+A=="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "ubcna",
+            "amount": "1000000"
+          }
+        ],
+        "max_deposit_period": "172800s"
+      },
+      "voting_params": {
+        "voting_period": "172800s"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.499000000000000000"
+      }
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0"
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.040000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "ubcna",
+        "inflation_rate_change": "0.100000000000000000",
+        "inflation_max": "0.100000000000000000",
+        "inflation_min": "0.020000000000000000",
+        "goal_bonded": "0.500000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "params": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "20000",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "ubcna"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      }
+    },
+    "upgrade": {},
+    "vesting": {}
+  }
+}
