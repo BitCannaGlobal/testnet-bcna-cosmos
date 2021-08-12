@@ -4,9 +4,9 @@
 
 # Delegator Guides
 
-1. [Creation of the KEPLR wallet & connecting to BitCanna web wallet] ()
+1. [Creation of the KEPLR wallet & connecting to BitCanna web wallet](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/delegator-guides/task1.md)
 
-2. [The basic functionalities of the BitCanna web wallet & Keplr wallet] ()
+2. [The basic functionalities of the BitCanna web wallet & Keplr wallet](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/delegator-guides/task2.md)
 
 3. Vote on a proposal through web-wallet to upgrade chain - **To be announced**
 
