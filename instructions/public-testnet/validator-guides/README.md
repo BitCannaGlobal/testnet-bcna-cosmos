@@ -27,6 +27,7 @@ persistent_peers = "dcdc83e240eb046faabef62e4daf1cfcecfa93a2@159.65.198.245:2665
 ``` 
 * Chain-ID: `bitcanna-testnet-6`
 * Public API: https://cosmos-testnet.bitcanna.io/
+* Public RPC: https://rpc-testnet.bitcanna.io/
 
 ## Extra information
 
