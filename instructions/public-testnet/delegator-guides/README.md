@@ -14,6 +14,7 @@
 
 * Chain-ID: `bitcanna-testnet-6`
 * Public API: https://cosmos-testnet.bitcanna.io/
+* Public RPC: https://rpc-testnet.bitcanna.io/
 
 ## Extra information
 
