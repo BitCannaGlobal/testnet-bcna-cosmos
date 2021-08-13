@@ -3,13 +3,13 @@
 
 ## Here you will find link to our guide:
 
-2.1. [Create & submit your GenTX](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage2/task2.1.md)
+2.1. [Create & submit your GenTX](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/invitational-testnet/stage2/task2.1.md)
 
-2.2. [Get the definitive Genesis file and start your validator](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage2/task2.2.md)
+2.2. [Get the definitive Genesis file and start your validator](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/invitational-testnet/stage2/task2.2.md)
 
-2.3. [Never be jailed.](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage2/task2.3.md)
+2.3. [Never be jailed.](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/invitational-testnet/stage2/task2.3.md)
 
-EXTRA GUIDE: [How become validator after 17-06-2021 - 14:00h UTC](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage2/alternative.md)
+EXTRA GUIDE: [How become validator after 17-06-2021 - 14:00h UTC](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/invitational-testnet/stage2/alternative.md)
 
 ## Chain info
 * `chain-id: bitcanna-testnet-3`
@@ -19,7 +19,7 @@ EXTRA GUIDE: [How become validator after 17-06-2021 - 14:00h UTC](https://github
 
 ## Extra info
 
-Here you can check a extra [guide with useful commands](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/stage1/useful.md).
+Here you can check a extra [guide with useful commands](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/invitational-testnet/stage1/useful.md).
 
 Other resources:
 * You can find extra info about compiling source code [here](https://github.com/BitCannaGlobal/testnet-bcna-cosmos)
