@@ -12,7 +12,7 @@
 
 4. [Jail your validator on purpose, then unjail your validator](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/validator-guides/task4.md)
 
-5. Vote on a proposal through CLI to upgrade chain - **To be announced**
+5. [Vote on a proposal through CLI to upgrade chain](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/validator-guides/task5.md)
 
 6. Setting up Cosmovisor to automate updates - **To be announced**
 
