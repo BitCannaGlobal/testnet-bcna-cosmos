@@ -8,7 +8,7 @@
 
 2. [The basic functionalities of the BitCanna web wallet & Keplr wallet](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/delegator-guides/task2.md)
 
-3. Vote on a proposal through web-wallet to upgrade chain - **To be announced**
+3. [Vote on a proposal through web-wallet to upgrade chain](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/delegator-guides/task3.md)
 
 ## Network info
 
