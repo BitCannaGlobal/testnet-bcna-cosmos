@@ -14,7 +14,7 @@
 
 5. [Vote on a proposal through CLI to upgrade chain](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/validator-guides/task5.md)
 
-6. Setting up Cosmovisor to automate updates - **To be announced**
+6. [Setting up Cosmovisor to automate updates](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/validator-guides/task6.md)
 
 ## Network info
 * Seed servers: 
