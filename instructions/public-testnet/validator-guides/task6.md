@@ -2,6 +2,7 @@
 We created a governance proposal on the 19th of August, 2021 at ~12:00 UTC, to upgrade the network to a new release, `v0.3-beta`.
 
 __New to Cosmos-SDK blockchain upgrades?__ We suggest reading [this article.](https://docs.cosmos.network/master/modules/gov)
+
 __New to Cosmovisor?__ We suggest reading [this article.](https://github.com/cosmos/cosmos-sdk/tree/master/cosmovisor)
 
 **Upgrade Schedule:**
