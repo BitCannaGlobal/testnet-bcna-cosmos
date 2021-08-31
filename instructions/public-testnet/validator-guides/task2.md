@@ -27,7 +27,7 @@ sudo service bcnad restart
 2. Enable a firewall rule to let us collect the data.
 For Ubuntu user:
 ```
-sudo ufw allow from 167.172.43.16 proto tcp to any port 26660
+sudo ufw allow from 178.62.236.228 proto tcp to any port 26660
 ```
 
 3. Provide the server IP that runs your node to Raul BitCanna ES#3102 on Discord by Private message.
