@@ -81,7 +81,7 @@ Your address will look something similar like this: `bcna14shzreglay98us0hep44hh
     curl -s https://raw.githubusercontent.com/BitCannaGlobal/testnet-bcna-cosmos/main/instructions/pre-swap/genesis.json > ~/.bcna/config/genesis.json
     ```
    Ensure you have the correct file. Run the SHA256SUM test:
-    ``
+    ```
      sha256sum $HOME/.bcna/config/genesis.json
      <output> daab55181283ecb4fc93bd46020ed5ba93cdd4ebb14587f2574477b1074b4893
     ```
