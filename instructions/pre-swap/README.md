@@ -92,7 +92,7 @@ Your address will look something similar like this: `bcna14shzreglay98us0hep44hh
     ```
 6. You can **set the minimum gas prices** for transactions to be accepted into your node’s mempool. This sets a lower bound on gas prices, preventing spam.
     ``` 
-    sed -E -i 's/minimum-gas-prices = \".*\"/minimum-gas-prices = \"0.01ubcna\"/' $HOME/.bcna/config/app.toml
+    sed -E -i 's/minimum-gas-prices = \".*\"/minimum-gas-prices = \"0.001ubcna\"/' $HOME/.bcna/config/app.toml
     ```
 
 7. **Open the P2P port (26656 by default)**
