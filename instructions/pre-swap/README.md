@@ -273,7 +273,7 @@ sha256sum $HOME/.bcna/config/genesis.json
 Before start think if your node use Prometheus daemon at port #9091. Because the new v.0.44 uses this port for gRPC web.
 We can change it easily to port 9099 with this command: 
 ```
-sed -E -i 's/9091/ubcna/9099' $HOME/.bcna/config/app.conf
+sed -E -i 's/9091/ubcna/9099' $HOME/.bcna/config/app.toml
 ```
 
 And we can continue: 
