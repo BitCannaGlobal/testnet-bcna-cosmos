@@ -1,7 +1,7 @@
-# PRE-SWAP Devnet: Setup up your validator and join *bitcanna-testnet-7*
+# PRE-SWAP Devnet: Setup up your validator and join *bitcanna-testnet-9*
 > IMPORTANT NOTE: If you participated in the previous BitCanna testnets, you must go to the end of the document to find specific instructions to join the pre-swap test chain.
 
-**bcnad** is a blockchain application built using Cosmos SDK v.0.42.9 and Tendermint v.0.34.11.
+**bcnad** is a blockchain application built using Cosmos SDK v.0.44.0 and Tendermint v.0.34.13.
 
 
 You can run the validator software using the binary or compiling it by yourself, you can choose between _Step 0a_ or _Step 0b_ and continue at _Step 1_.
@@ -22,14 +22,14 @@ If we don't raise this value nodes will crash once the network grows large enoug
 
 ## Step 0A - Run a fullnode / validator using the binaries
 By downloading the binary we avoid compiling the source code.
-* Download the latest version (v0.3-beta) from Github:
+* Download the latest version (v0.4-beta) from Github:
     ```
     cd $HOME
     wget https://github.com/BitCannaGlobal/bcna/releases/download/v0.3-beta/bcnad
     chmod +x bcnad
     sudo mv bcnad /usr/local/bin/
     ```
-* Check for the right version (0.3-beta): 
+* Check for the right version (0.4-beta): 
     ```
     bcnad version
        >>> response: 0.3-beta
@@ -43,7 +43,7 @@ The updated instructions are always in our GitHub Readme page, click on this [li
 Instructions for setting up the connection with the BitCanna Public Testnet Blockchain
 1. **Set the chain-id param** 
 ```
-    bcnad config chain-id bitcanna-testnet-7
+    bcnad config chain-id bitcanna-testnet-9
 ```
 2.  **Create a wallet**:
 You may create a wallet with one or more keys (addresses) using `bcnad`; you can choose the name (we advice you use one word)
@@ -72,7 +72,7 @@ Your address will look something similar like this: `bcna14shzreglay98us0hep44hh
 
 3. **Initialize the folders:** change **_Moniker_** by your validator name (use quotes for two or more separated words *"Royal Queen Seeds"*)
     ```
-    bcnad init Moniker --chain-id bitcanna-testnet-7
+    bcnad init Moniker --chain-id bitcanna-testnet-9
     ```
     This will create a `$HOME/.bcna` folder
 4. **Download the Genesis** `genesis.json` file
@@ -184,7 +184,7 @@ bcnad tx staking create-validator \
     --min-self-delegation 1 \
     --moniker MONIKER \
     --pubkey $(bcnad tendermint show-validator) \
-    --chain-id bitcanna-testnet-7 \
+    --chain-id bitcanna-testnet-9 \
     --gas auto \
     --gas-adjustment 1.5 \
     --gas-prices 0.01ubcna
@@ -218,32 +218,41 @@ sudo service bcnad stop
 
 ## 2. Update the software.
 New versions (bcnad & cosmovisor) for the Public Testnet are here (you can check the sha256sum there):
-https://github.com/BitCannaGlobal/bcna/releases/tag/v0.3-beta
+https://github.com/BitCannaGlobal/bcna/releases/tag/v0.4-beta
 > Perform only A or B of step 1 depending on your service type (cosmovisor or bcnad directly)
 1. **A**  Update for Cosmovisor users
 ```
 cd $HOME
 rm -f bcnad  #deletes if exist
-wget -nc https://github.com/BitCannaGlobal/bcna/releases/download/v0.3-beta/bcnad
+wget -nc https://github.com/BitCannaGlobal/bcna/releases/download/v0.4-beta/bcnad
+chmod +x bcnad
 
 sha256sum bcnad 
-  <output> 1b2f3763dd3f11fe63b0212dc21d20fa09a114760928e8a0656936632de2c1f8  bcnad
+  <output> e8e5c13f942ac32b24cf830e6966710ad2590e35c6d9a404af4581c1554115c9  bcnad
 
 rm -rf .bcna/cosmovisor/upgrades/indica/
 ln -s -f  -T ${HOME}/.bcna/cosmovisor/genesis ${HOME}/.bcna/cosmovisor/current
 mv ./bcnad $HOME/.bcna/cosmovisor/current/bin/
 
+rm -f cosmovisor  #deletes if exist
+wget -nc https://github.com/BitCannaGlobal/bcna/releases/download/v0.4-beta/cosmovisor
+chmod +x cosmovisor
+
+sha256sum cosmovisor 
+  <output> 622e1f60a94bb93a3810bb7820b9e42c7822086d4996455342b76e1087576d0f  cosmovisor
+
+sudo mv ./cosmovisor $(which cosmovisor) #overwrite the current
 ```
 1. **B** Update for BCNAD service (not Cosmovisor)
 If you are running the validator without Cosmovisor:
 ```
 cd $HOME
 rm -f bcnad #deletes if exist
-wget -nc https://github.com/BitCannaGlobal/bcna/releases/download/v0.3-beta/bcnad
+wget -nc https://github.com/BitCannaGlobal/bcna/releases/download/v0.4-beta/bcnad
 chmod +x bcnad
 sudo mv ./bcnad $(which bcnad)
 bcnad version
-   <output> 0.3-beta
+   <output> 0.4-beta
 ```
 
 Anyway  Review your config.toml file and ensure that `persistent_peers` is empty by now, and `seeds` have the following value: 
@@ -258,12 +267,12 @@ curl -s https://raw.githubusercontent.com/BitCannaGlobal/testnet-bcna-cosmos/mai
 Ensure you have the correct file. Run the SHA256SUM test:
 ```
 sha256sum $HOME/.bcna/config/genesis.json
-   <output> daab55181283ecb4fc93bd46020ed5ba93cdd4ebb14587f2574477b1074b4893
+   <output> ----------------------------------------------
 ```
 ## 4. Reset the state and sync the new chain.
 ```
 bcnad unsafe-reset-all
-bcnad config chain-id bitcanna-testnet-7
+bcnad config chain-id bitcanna-testnet-9
 ```
 Start the service, you must run `cosmovisor` or `bcnad` service:
 ```
