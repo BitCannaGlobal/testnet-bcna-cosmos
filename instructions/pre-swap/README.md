@@ -32,7 +32,7 @@ By downloading the binary we avoid compiling the source code.
 * Check for the right version (0.4-beta): 
     ```
     bcnad version
-       >>> response: 0.3-beta
+       >>> response: 0.4-beta
     ```
 **NOTE:** If you have downloaded the binary avoid _Step 0B_ and go to _Step_ 1
 ## Step 0B - Run a fullnode / validator compiling source code (not recommended for new users)
