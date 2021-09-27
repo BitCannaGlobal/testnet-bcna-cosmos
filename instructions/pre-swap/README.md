@@ -83,7 +83,7 @@ Your address will look something similar like this: `bcna14shzreglay98us0hep44hh
    Ensure you have the correct file. Run the SHA256SUM test:
     ```
      sha256sum $HOME/.bcna/config/genesis.json
-     <output> daab55181283ecb4fc93bd46020ed5ba93cdd4ebb14587f2574477b1074b4893
+     <output> 4e78faa35e92edc3480d0847e0c838401de6fddb57bc737ac4409affcff8c021
     ```
 5. **Add to _config.toml_ file the server SEEDs:**
 
@@ -267,7 +267,7 @@ curl -s https://raw.githubusercontent.com/BitCannaGlobal/testnet-bcna-cosmos/mai
 Ensure you have the correct file. Run the SHA256SUM test:
 ```
 sha256sum $HOME/.bcna/config/genesis.json
-   <output> ----------------------------------------------
+   <output> 4e78faa35e92edc3480d0847e0c838401de6fddb57bc737ac4409affcff8c021
 ```
 ## 4. Reset the state and sync the new chain.
 ```
