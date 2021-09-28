@@ -25,7 +25,7 @@ By downloading the binary we avoid compiling the source code.
 * Download the latest version (v0.4-beta) from Github:
     ```
     cd $HOME
-    wget https://github.com/BitCannaGlobal/bcna/releases/download/v0.3-beta/bcnad
+    wget https://github.com/BitCannaGlobal/bcna/releases/download/v0.4-beta/bcnad
     chmod +x bcnad
     sudo mv bcnad /usr/local/bin/
     ```
