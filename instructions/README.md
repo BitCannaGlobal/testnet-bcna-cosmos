@@ -568,17 +568,7 @@ sha256sum $HOME/.bcna/config/genesis.json
    <output> cd7449a199e71c400778f894abb00874badda572ac5443b7ec48bb0aad052f29
 ```
 ## 4. Reset the state and sync the new chain.
-Before start think if your node use Prometheus daemon at port #9091. Because the new v.0.44 uses this port for gRPC web.
-We can change it easily to port 9099 with this command: 
-```
-cat <<'EOF' >>$HOME/.bcna/config/app.toml
-[grpc-web]
-enable = true
-address = "0.0.0.0:9099" 
-EOF
-```
-
-And we can continue: 
+ 
 ```
 bcnad unsafe-reset-all
 bcnad config chain-id bitcanna-1
