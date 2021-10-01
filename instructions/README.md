@@ -186,7 +186,7 @@ bcnad tx staking create-validator \
     --chain-id bitcanna-1 \
     --gas auto \
     --gas-adjustment 1.5 \
-    --gas-prices 0.01ubcna
+    --gas-prices 0.001ubcna
 ```
 # Instructions for users who participated in previous BitCanna testnets.
 ## 1. Stop your validator (if is running).
