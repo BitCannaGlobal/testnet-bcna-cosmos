@@ -1,5 +1,6 @@
-# PRE-SWAP Devnet: Setup up your validator and join *bitcanna-dev-1*
-> IMPORTANT NOTE: If you participated in the previous BitCanna testnets, you must go to the end of the document to find specific instructions to join the pre-swap test chain.
+# Devnet-1: Setup up your validator and join *bitcanna-dev-1*
+> IMPORTANT NOTE: If you participated in the previous BitCanna testnets delete the bitcanna folder and start a new fresh installation:
+> `rm ~/.bcna`
 
 **bcnad** is a blockchain application built using Cosmos SDK v.0.44.2 and Tendermint v.0.34.13.
 
