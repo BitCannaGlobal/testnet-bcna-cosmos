@@ -97,7 +97,7 @@ Your address will look something similar like this: `bcna14shzreglay98us0hep44hh
    Ensure you have the correct file. Run the SHA256SUM test:
     ```
      sha256sum $HOME/.bcna/config/genesis.json
-     <output> ---------------------
+     <output> fcdc71e952da0ea591fb71c2587d25a6182bac69025e1753b86db2469a432aab
     ```
 5. **Add to _config.toml_ file the server SEEDs:**
 
@@ -165,13 +165,13 @@ Check the logs to see if it is working:
     curl -s localhost:26657/status | jq .result.sync_info.latest_block_height
     #this output is your last block synced
 
-    curl -s "https://rpc-testnet.bitcanna.io:26657/status?"  | jq .result.sync_info.latest_block_height
+    curl -s "https://rpc-testnet.bitcanna.io/status?"  | jq .result.sync_info.latest_block_height
     #this output the public node last block synced
     ```
 
 ## Step 2 - Become a validator
 To become a validator you need to perform additional steps. 
-Your node must be fully synced in order to send the TX of validator creation and start to validate the network. You can check if your node has fully synced by comparing your logs and the latest block in the explorer (https://testnet-explorer.bitcanna.io/)
+Your node must be fully synced in order to send the TX of validator creation and start to validate the network. You can check if your node has fully synced by comparing your logs and the latest block in the explorer (https://wallet-testnet.bitcanna.io/)
 
 1. **Get test-coins from Discord Faucet:**
 Go to #testnet-faucet channel and claim your coins (one time) to your address using this syntax: 
@@ -198,7 +198,7 @@ bcnad tx staking create-validator \
     --min-self-delegation 1 \
     --moniker MONIKER \
     --pubkey $(bcnad tendermint show-validator) \
-    --chain-id bitcanna-dev-1 \
+    --chain-id bitcanna-dev-3 \
     --gas auto \
     --gas-adjustment 1.5 \
     --gas-prices 0.001ubcna
