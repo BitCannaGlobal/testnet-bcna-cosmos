@@ -1,6 +1,6 @@
 # Devnet-3: Setup up your validator and join *bitcanna-dev-3*
 > IMPORTANT NOTE: If you participated in the previous BitCanna testnets delete the bitcanna folder and start a new fresh installation:
-> `rm ~/.bcna`
+> `rm -rf ~/.bcna`
 
 ## Target of this DevNet
 ### We are going to work in two new testnets: 
