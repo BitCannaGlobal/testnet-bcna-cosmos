@@ -14,7 +14,22 @@ Also we will test how to upgrade IBC channels when the remote chain upgrade thei
 * BINARY: https://github.com/informalsystems/ibc-rs/releases/tag/v0.10.0
 * INSTRUCTIONS: https://hermes.informal.systems/
 
+### Data for config relayer:
+```
+omosis-dev-1 remote host to make/maintain IBC connections:
 
+host: 188.166.126.81
+rpc:  188.166.126.81:36657
+grpc: 188.166.126.81:9093
+lcd:  188.166.126.81:3317 (api-lcd)
+
+bitcanna-dev-3 remote host to make/maintain IBC connections:
+
+host: 188.166.126.81
+rpc:  188.166.126.81:26657
+grpc: 188.166.126.81:9090
+lcd:  188.166.126.81:1317 (api-lcd)
+```
 
 ## Running a validator on **bitcanna-dev-3**
 
