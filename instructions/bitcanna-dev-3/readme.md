@@ -258,5 +258,7 @@ You can check the list of validators (also in [Explorer](https://testnet-explore
     sudo mv bcnad $(which bcnad)  #(replace the binary)
     bcnad version
         .1.3.0-rc2-3-ge4da27a
+    nano ~/.bcna/config/app.toml
+    halt-height = 0   (save the file)
     sudo service bcnad start      #(start the service again)
     ```
