@@ -234,11 +234,11 @@ You can check the list of validators (also in [Explorer](https://testnet-explore
     ```
     This will create a GPG encrypted file with both key files.
 
-# First upgrade: 25 January at XX:YYh CET (UTC+1)
+# First upgrade: 25 January at 16:15h CET (UTC+1)
 1. Setup the halt-height number to stop the network.
     ```
     nano ~/.bcna/config/app.toml
-    halt-height = xxxxxxxx   (save the file)
+    halt-height = 177735   (save the file)
     sudo service bcnad restart
     ```
 2. Download the new binary or compile it.
@@ -251,7 +251,7 @@ You can check the list of validators (also in [Explorer](https://testnet-explore
             .1.3.0-rc2-3-ge4da27a
 
     ```
-3. Wait until the halt-heigh ~ XX:YYh CET . The daemon and the blockchain will stop.
+3. Wait until the halt-heigh ~ 16:15h CET . The daemon and the blockchain will stop.
     ```
     sudo journalctl -u bcnad -f   (you can see here the log)
     sudo mv bcnad $(which bcnad)  (replace the binary)
