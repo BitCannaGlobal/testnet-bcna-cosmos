@@ -254,6 +254,7 @@ You can check the list of validators (also in [Explorer](https://testnet-explore
 3. Wait until the halt-heigh ~ 16:15h CET . The daemon and the blockchain will stop.
     ```
     sudo journalctl -u bcnad -f   #(you can see here the log)
+    sudo service bcnad stop 
     sudo mv bcnad $(which bcnad)  #(replace the binary)
     bcnad version
         .1.3.0-rc2-3-ge4da27a
