@@ -126,7 +126,7 @@ Your address will look something similar like this: `bcna14shzreglay98us0hep44hh
 5. **Add to _config.toml_ file the server SEEDs:**
 
     ```
-    sed -E -i 's/seeds = \".*\"/seeds = \"3ec664ad43c88b22ebc738c29ed7b6d4bd8da1d1@188.166.126.81:26656\"/' $HOME/.bcna/config/config.toml
+    sed -E -i 's/seeds = \".*\"/seeds = \"d0de90dd8b40dfe231a65875069a31c534359c95@188.166.126.81:26656\"/' $HOME/.bcna/config/config.toml
     ```
 6. You can **set the minimum gas prices** for transactions to be accepted into your node’s mempool. This sets a lower bound on gas prices, preventing spam.
     ``` 
