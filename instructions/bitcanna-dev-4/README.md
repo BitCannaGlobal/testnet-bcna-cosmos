@@ -1,6 +1,8 @@
 # Devnet-3: Setup up your validator and join *bitcanna-dev-4*
 > IMPORTANT NOTE: If you participated in the previous BitCanna testnets delete the bitcanna folder and start a new fresh installation:
 > `rm -rf ~/.bcna`
+> `sudo rm $(which bcnad)
+
 
 ## Target of this DevNet
 ### We are going to work in two new testnets: 
@@ -11,7 +13,7 @@
 Also we will test how to upgrade IBC channels when the remote chain upgrade their chain-id.**
 
 ### BitCanna Team is going to run a relayer to make the "official" test, but anyone can run their own relayer and create his/her own channels:
-* BINARY: https://github.com/informalsystems/ibc-rs/releases/tag/v0.10.0
+* BINARY: https://github.com/informalsystems/ibc-rs/releases/tag/v0.11.0
 * INSTRUCTIONS: https://hermes.informal.systems/
 
 ### Data for config relayer:
@@ -23,7 +25,7 @@ rpc:  188.166.126.81:36657
 grpc: 188.166.126.81:9093
 lcd:  188.166.126.81:3317 (api-lcd)
 
-bitcanna-dev-3 remote host to make/maintain IBC connections:
+bitcanna-dev-4 remote host to make/maintain IBC connections:
 
 host: 188.166.126.81
 rpc:  188.166.126.81:26657
@@ -31,7 +33,7 @@ grpc: 188.166.126.81:9090
 lcd:  188.166.126.81:1317 (api-lcd)
 ```
 
-## Running a validator on **bitcanna-dev-3**
+## Running a validator on **bitcanna-dev-4**
 
 You can run the validator software using the binary or compiling it by yourself, you can choose between _Step 0a_ or _Step 0b_ and continue at _Step 1_.
 
@@ -72,7 +74,7 @@ The updated instructions are always in our GitHub Readme page, click on this [li
 Instructions for setting up the connection with the BitCanna Public Testnet Blockchain
 1. **Set the chain-id param** 
 ```
-    bcnad config chain-id bitcanna-dev-3
+    bcnad config chain-id bitcanna-dev-4
 ```
 2.  **Create a wallet**:
 You may create a wallet with one or more keys (addresses) using `bcnad`; you can choose the name (we advice you use one word)
@@ -101,13 +103,13 @@ Your address will look something similar like this: `bcna14shzreglay98us0hep44hh
 
 3. **Initialize the folders:** change **_Moniker_** by your validator name (use quotes for two or more separated words *"Royal Queen Seeds"*)
     ```
-    bcnad init Moniker --chain-id bitcanna-dev-3
+    bcnad init Moniker --chain-id bitcanna-dev-4
     ```
     This will create a `$HOME/.bcna` folder
 4. **Download the Genesis** `genesis.json` file
     ```
     cd $HOME
-    curl -s https://raw.githubusercontent.com/BitCannaGlobal/testnet-bcna-cosmos/main/instructions/bitcanna-dev-3/genesis.json > ~/.bcna/config/genesis.json
+    curl -s https://raw.githubusercontent.com/BitCannaGlobal/testnet-bcna-cosmos/main/instructions/bitcanna-dev-4/genesis.json > ~/.bcna/config/genesis.json
     ```
    Ensure you have the correct file. Run the SHA256SUM test:
     ```
@@ -172,7 +174,7 @@ Check the logs to see if it is working:
     sudo journalctl -u bcnad -f
     ``` 
     
-11. **Check the sync:** while `catching_up = true` the node is syncing. Also you can compare your current block with the last synced block of another node or at our [Explorer](https://testnet-explorer.bitcanna.io):
+11. **Check the sync:** while `catching_up = true` the node is syncing. Also you can compare your current block with the last synced block of another node or at our [Web-wallet](https://wallet-testnet.bitcanna.io/validators):
     ```
     curl -s localhost:26657/status  | jq .result.sync_info.catching_up
     #true output is syncing - false is synced
@@ -186,7 +188,7 @@ Check the logs to see if it is working:
 
 ## Step 2 - Become a validator
 To become a validator you need to perform additional steps. 
-Your node must be fully synced in order to send the TX of validator creation and start to validate the network. You can check if your node has fully synced by comparing your logs and the latest block in the explorer (https://wallet-testnet.bitcanna.io/)
+Your node must be fully synced in order to send the TX of validator creation and start to validate the network. You can check if your node has fully synced by comparing your logs and the latest block in the wallet (https://wallet-testnet.bitcanna.io/)
 
 1. **Get test-coins from Discord Faucet:**
 Go to #testnet-faucet channel and claim your coins (one time) to your address using this syntax: 
@@ -213,7 +215,7 @@ bcnad tx staking create-validator \
     --min-self-delegation 1 \
     --moniker MONIKER \
     --pubkey $(bcnad tendermint show-validator) \
-    --chain-id bitcanna-dev-3 \
+    --chain-id bitcanna-dev-4 \
     --gas auto \
     --gas-adjustment 1.5 \
     --gas-prices 0.001ubcna
@@ -234,31 +236,4 @@ You can check the list of validators (also in [Explorer](https://testnet-explore
     ```
     This will create a GPG encrypted file with both key files.
 
-# First upgrade: 25 January at 16:15h CET (UTC+1)
-1. Setup the halt-height number to stop the network.
-    ```
-    nano ~/.bcna/config/app.toml
-    halt-height = 177735   (save the file)
-    sudo service bcnad restart
-    ```
-2. Download the new binary or compile it.
-    ```
-    wget https://github.com/BitCannaGlobal/bcna/releases/download/v.1.3.0-rc2/bcnad
-    sha256sum bcnad 
-        f5beb5613bdf2fc6b07e11b771349f23347536d244713d08eb0b7e10c2b7a6ed  bcnad
-    chmod +x bcnad
-    ./bcnad version
-            .1.3.0-rc2-3-ge4da27a
-
-    ```
-3. Wait until the halt-heigh ~ 16:15h CET . The daemon and the blockchain will stop.
-    ```
-    sudo journalctl -u bcnad -f   #(you can see here the log)
-    sudo service bcnad stop 
-    sudo mv bcnad $(which bcnad)  #(replace the binary)
-    bcnad version
-        .1.3.0-rc2-3-ge4da27a
-    nano ~/.bcna/config/app.toml
-    halt-height = 0   (save the file)
-    sudo service bcnad start      #(start the service again)
-    ```
+## Step 3. Upgrade to v1.3. To be announced soon
