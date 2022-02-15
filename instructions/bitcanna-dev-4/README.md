@@ -1,16 +1,23 @@
-# Devnet-3: Setup up your validator and join *bitcanna-dev-4*
+# Devnet-4: Setup up your validator and join *bitcanna-dev-4*
 > IMPORTANT NOTE: If you participated in the previous BitCanna testnets delete the bitcanna folder and start a new fresh installation:
-> `rm -rf ~/.bcna`
-> `sudo rm $(which bcnad)
+> 
+> ```sudo service bcnad stop``` 
+> 
+> `rm -rf ~/.bcna && sudo rm $(which bcnad)`
+
 
 
 ## Target of this DevNet
 ### We are going to work in two new testnets: 
-* bitcanna-dev-3 (with `bcnad` current version v.1.2 that we will update later)
+* bitcanna-dev-4 (with `bcnad` current version v.1.2 that we will update later)
 * osmosis-dev-1 (with `osmosisd` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
 
-**These chains will be interconnected, creating new IBC channels and testing the recovering of closed channels and stucked clients
+**First target is upgrade the binary in `bitcanna-dev-4` for to simulate the next MainNet upgrade.**
+> We will provide a Cosmovisor upgrade guide very soon.
+
+**Second target is about creating new IBC channels and testing the recovering of closed channels and stucked clients
 Also we will test how to upgrade IBC channels when the remote chain upgrade their chain-id.**
+> We have written a guide for another past DevNet that also we are going to share here very soon.
 
 ### BitCanna Team is going to run a relayer to make the "official" test, but anyone can run their own relayer and create his/her own channels:
 * BINARY: https://github.com/informalsystems/ibc-rs/releases/tag/v0.11.0
@@ -114,7 +121,7 @@ Your address will look something similar like this: `bcna14shzreglay98us0hep44hh
    Ensure you have the correct file. Run the SHA256SUM test:
     ```
      sha256sum $HOME/.bcna/config/genesis.json
-     <output> fcdc71e952da0ea591fb71c2587d25a6182bac69025e1753b86db2469a432aab
+     <output> 01d4076c2621c7501203998d61a9fbb2f0636ba8a328f9212307f86f64f57d9b
     ```
 5. **Add to _config.toml_ file the server SEEDs:**
 
