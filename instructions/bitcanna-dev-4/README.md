@@ -121,7 +121,7 @@ Your address will look something similar like this: `bcna14shzreglay98us0hep44hh
    Ensure you have the correct file. Run the SHA256SUM test:
     ```
      sha256sum $HOME/.bcna/config/genesis.json
-     <output> 01d4076c2621c7501203998d61a9fbb2f0636ba8a328f9212307f86f64f57d9b
+     <output> f667a9a89bc00a77548e29ff11c14c3f551b3b2faa809c3e3dd48af68a3a140b
     ```
 5. **Add to _config.toml_ file the server SEEDs:**
 
