@@ -244,16 +244,17 @@ You can check the list of validators (also in [Explorer](https://testnet-explore
     ```
     This will create a GPG encrypted file with both key files.
 
-## Step 3. Upgrade to v1.3. It will happens Feb 18th around 13:00h UTC +1. **Halt-height: 51775**
+## Step 3. Upgrade to v1.3. 
 
-BitCanna Community agrees with Governance to approve a proposal to upgrade the `bcnad` software from `v.1.2` to `v.1.3.1` on 02/18/2022 13:00h UTC+1 at  **Halt-height: 51775**.
-This upgrade, called "**Ruderalis**" will bump Cosmos SDK from v.0.44.2 to v.0.45.1, Tendermint from v.0.34.13 to v.0.34.15 and ibc/go from v.1.2.0 to v.2.0.3.
-That includes the last features and security patches. See the full changelog here
+BitCanna Community agrees with the governance proposal to approve an upgrade of the `bcnad` software from version `v.1.2` to `v.1.3.1` on 02/18/2022 at block **height: 51775** (~12:00 UTC)
 
-You can upgrade manually, stopping the binary and replacing it with the new one when the approved halt-height is reached and the chain stops or you can automate it with Cosmovisor. 
+This upgrade, called "Ruderalis" will bump:
+- Cosmos SDK from `v.0.44.2` to `v.0.45.1`
+- Tendermint from `v.0.34.13` to `v.0.34.15` 
+- ibc/go from `v.1.2.0` to `v.2.0.3`
 
-1. Manual replacement of binary
+This includes the latest features and security patches. See the full changelog [here](https://github.com/BitCannaGlobal/bcna/releases/tag/v.1.3.1-pre)
 
-2. Automated setting up Cosmovisor
-
-A detailed guide to setting up Cosmovisor is [here](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/bitcanna-dev-4/cosmovisor_config.md)
+You can upgrade manually by stopping the current `bcnad`service and replace it with the new version when the approved halt-height is reached and the chain stops, or you can automate it with Cosmovisor. 
+* Detailed instructions for a manual update can be found in [this guide](https://hackmd.io/w9S_M26VSJugsNlr5kbhig?view)
+* Detailed instructions for setting up Cosmovisor can be found in [this guide](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/bitcanna-dev-4/cosmovisor_config.md)
