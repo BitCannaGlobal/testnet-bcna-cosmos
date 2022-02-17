@@ -252,9 +252,8 @@ That includes the last features and security patches. See the full changelog her
 
 You can upgrade manually, stopping the binary and replacing it with the new one when the approved halt-height is reached and the chain stops or you can automate it with Cosmovisor. 
 
-### Manual replacement of binary
+1. Manual replacement of binary
 
-
-### Automated setting up Cosmovisor
+2. Automated setting up Cosmovisor
 
 A detailed guide to setting up Cosmovisor is [here](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/bitcanna-dev-4/cosmovisor_config.md)
