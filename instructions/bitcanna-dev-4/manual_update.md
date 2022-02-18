@@ -15,9 +15,9 @@ wget -nc https://github.com/BitCannaGlobal/bcna/releases/download/v.1.3.1-pre/bc
 ```
 sha256sum ./bcnad
 ```
-It must return: `440de7d07190ad8903ebc625ec459bbb708b954878f615ce97881ae5aba51898`
+It must return: `63c584f84402c969277af7a328a70decfbdcb6b0a58b381c6e4cd8f3ddec4673`
 
-4) Verify that the version is `1.3.1-pre-3-g7e55368`
+4) Verify that the version is `.1.3.1-pre-7-g158d217`
 ```
 chmod +x bcnad
 ./bcnad version
