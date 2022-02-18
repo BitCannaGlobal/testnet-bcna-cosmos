@@ -154,6 +154,8 @@ This guide shows how to download the binary. If you want to build the binary fro
 
 1) Download the binary.
 ```
+cd ~
+rm -rf bcnad
 wget -nc https://github.com/BitCannaGlobal/bcna/releases/download/v.1.3.1-pre/bcnad
 ```
 2) Check the sha256sum.
