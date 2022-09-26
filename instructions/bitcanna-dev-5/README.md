@@ -148,5 +148,7 @@ Another **IMPORTANT** but **optional** action is backup your Validator_priv_key:
    This will create a GPG encrypted file with both key files.
 ##
 
-### More details about the upgrade to version 1.5.1 will follow.. :+1: 
+### UPGRADE INSTRUCTIONS TO v1.5.1
+- https://hackmd.io/OfAoExSqQFeABhKGaEywdw
+
  [_Some useful commands_](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/validator-guides/useful.md) to help you navigate the `bcnad` CLI
