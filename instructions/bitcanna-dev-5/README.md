@@ -10,7 +10,7 @@
 We created a new testnet that follows the exact upgrade cycle as the current Mainnet. In this devnet the participants can join the chain from version v.1.4.2 codename `strangeBuddheads`, using our statesync script. We will prepare to upgrade to the newest version of the software, v1.5.1 codename `TrichomeMonster-ICA`, which includes the ***InterChain Accounts module***.
 
 ### We are going to work in three new testnets: 
-* bitcanna-dev-5 (with `bcnad` current version v.1.4.2, which we will update later)
+* bitcanna-dev-5 (with `bcnad` current version ~~v.1.4.2, which we will update later~~ v1.5.1 [upgrade here](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/tree/main/instructions/bitcanna-dev-5#upgrade-instructions-to-v151) )
 * innuendo-1 (with `quicksilverd` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
 * axelar-lisbon (with `axelard` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
 
