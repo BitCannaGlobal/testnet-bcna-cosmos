@@ -11,6 +11,7 @@ This will disconnect after passing P2P info so not include in your _persistent_p
 # Explorers
 - https://testnets-cosmos.mintthemoon.xyz/bitcanna/staking
 - https://testnet.ping.pub/bitcanna/uptime
+- https://explorer.stavr.tech/bitcanna-dev/staking
 
 # Wallets / Dashboard
 - https://wallet-testnet.bitcanna.io
