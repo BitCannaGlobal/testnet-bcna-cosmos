@@ -7,10 +7,10 @@
 > `rm -rf ~/.bcna && sudo rm $(which bcnad)`
 
 ## Target of this DevNet
-We created a new testnet that follows the exact upgrade cycle as the current Mainnet. In this devnet the participants can join the chain from version v.1.4.2 codename `strangeBuddheads`, using our statesync script. We will prepare to upgrade to the newest version of the software, v1.5.1 codename `TrichomeMonster-ICA`, which includes the ***InterChain Accounts module***.
+We created a new testnet that follows the exact upgrade cycle as the current Mainnet. In this devnet the participants can join the chain from version v.1.4.2 codename `strangeBuddheads`, using our statesync script. We will prepare to upgrade to the newest version of the software, v1.5.3 codename `TrichomeMonster-ICA`, which includes the ***InterChain Accounts module***.
 
 ### We are going to work in three new testnets: 
-* bitcanna-dev-5 (with `bcnad` current version ~~v.1.4.2, which we will update later~~ v1.5.1 [upgrade here](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/tree/main/instructions/bitcanna-dev-5#upgrade-instructions-to-v151) )
+* bitcanna-dev-5 (with `bcnad` current version ~~v.1.4.2, which we will update later~~ v1.5.3 [upgrade here](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/tree/main/instructions/bitcanna-dev-5#upgrade-instructions-to-v151) )
 * innuendo-1 (with `quicksilverd` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
 * axelar-lisbon (with `axelard` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
 
@@ -26,7 +26,7 @@ We created a new testnet that follows the exact upgrade cycle as the current Mai
     sudo sysctl -p
     ```
 ## Step 1 - Download and run statesync script
-By running the statesync script we download the latest binary (v1.4.2) and sync the chain to the latest block.
+By running the statesync script we download the latest binary (v1.4.3) and sync the chain to the latest block.
 1. **Download the statesync script** for new peers from Github:
     ```
     cd ~
