@@ -172,37 +172,42 @@ Another **IMPORTANT** but **optional** action is backup your Validator_priv_key:
 
 
 # Upgrade instructions for `wakeandbake46.6 v2.0.1-rc2`
-
-## Governance proposal: halt-height `1.032.049` ~ on November 28th 16:00h CET - 15:00h UTC
+# Upgrade Instructions
+## Governance proposal: 
+* halt-height `1.032.049` 
+* on November 28th 16:00h CET - 15:00h UTC
 
 https://testnet.ping.pub/bitcanna/gov/10
 
-## Attended (manual) upgrade.
+## Download the new binary 
+1) Download the binary [or compile it from the source](#If-you-want-to-build-from-the-source)
+```
+cd ~
+rm -f ./bcnad && rm -f ./bcna_linux_amd64.tar.gz # clean the previous downloads
+wget -nc https://github.com/BitCannaGlobal/bcna/releases/download/v2.0.1-rc2/bcna_linux_amd64.tar.gz
+```
+2) Check the sha256sum. 
+```
+sha256sum bcna_linux_amd64.tar.gz
+```
+> It must return: `a424ad37b301578370bce58134c78891798c9c0b519ec09954054184a2a868e1`
+
+3) Verify that the version is `v2.0.1-rc2`
+```
+tar zxvf  bcna_linux_amd64.tar.gz
+rm bcna_linux_amd64.tar.gz
+./bcnad version
+```
+> You can continue with Manual instructions or Cosmovisor ones.
+
+## Option 1. Attended (manual) upgrade.
 
 This section of the guide shows how to perform a **manual** update of the binaries after a governance proposal has been approved for a chain update.
 1) Stop your bcnad service **after you see this** in your logs `ERR UPGRADE "wakeandbake46.6" NEEDED at height: 1.032.049`
 ```
 sudo service bcnad stop
 ```
-2) Download the binary [or compile it from the source](#If-you-want-to-build-from-the-source)
-```
-cd ~
-rm -f ./bcnad && rm -f ./bcna_linux_amd64.tar.gz # clean the previous downloads
-wget -nc https://github.com/BitCannaGlobal/bcna/releases/download/v2.0.1-rc2/bcna_linux_amd64.tar.gz
-```
-3) Check the sha256sum. 
-```
-sha256sum bcna_linux_amd64.tar.gz
-```
-> It must return: `a424ad37b301578370bce58134c78891798c9c0b519ec09954054184a2a868e1`
-
-4) Verify that the version is `v2.0.1-rc2`
-```
-tar zxvf  bcna_linux_amd64.tar.gz
-rm bcna_linux_amd64.tar.gz
-./bcnad version
-```
-5) Move the new binary to your machine's PATH and overwrite the previous version
+2) Move the new binary to your machine's PATH and overwrite the previous version
 ```
 sudo mv bcnad $(which bcnad)   #copy&paste don't replace anything
 ```
@@ -210,7 +215,7 @@ sudo mv bcnad $(which bcnad)   #copy&paste don't replace anything
 ```
 sudo mv bcnad /usr/local/bin/ #or wherever you have it
 ```
-6) Start the bcnad service
+3) Start the bcnad service
 ```
 sudo service bcnad start
 ```
@@ -219,50 +224,32 @@ Of course, if you are familiar with the Cosmos environment, you can keep the dae
 ```
 sudo service bcnad stop && sudo mv bcnad $(which bcnad) && sudo service bcnad start
 ```
-7) Ensure that everything is OK by checking the logs 
+4) Ensure that everything is OK by checking the logs 
 ```
 sudo journalctl -fu bcnad -o cat
 ```
 
-## Unattended (Cosmovisor) upgrade. 
+## Option 2. Unattended (Cosmovisor) upgrade. 
 This section of the guide shows how to perform a **automated** upgrade of the binaries after a governance proposal has been approved for a chain update.
 
 For detailed instructions about setting up Cosmovisor from scratch, check this [guide](https://hackmd.io/jsJCqEyJSHKVOFKjScn3rw).
 
 This guide shows how to download the binary. If you want to build the binary from the source, detailed instructions can be found in the [README](https://github.com/BitCannaGlobal/bcna/blob/main/README.md) of our GitHub (`git checkout v2.0.1-rc2`)
 
-### Step 1. Setup Cosmovisor folder
+### Setup Cosmovisor folder
+Binary should be download previously
+
 1) Create new directory
 ```
 mkdir -p ${HOME}/.bcna/cosmovisor/upgrades/wakeandbake46.6/bin
 ```
-
-2) Download the current version `2.0.1-rc2`.
-```
-cd ~
-rm -f bcna_linux_amd64.tar.gz
-wget -nc https://github.com/BitCannaGlobal/bcna/releases/download/v2.0.1-rc2/bcna_linux_amd64.tar.gz
-```
-3) Check the sha256sum.
-```
-sha256sum ./bcna_linux_amd64.tar.gz
-```
-> It must return: `a424ad37b301578370bce58134c78891798c9c0b519ec09954054184a2a868e1`
-
-4) Verify that the version is:`2.0.1-rc2`
-```
-rm -rf ./bcnad
-tar zxvf  bcna_linux_amd64.tar.gz
-rm bcna_linux_amd64.tar.gz
-./bcnad version
-```
-5) Move the newly downloaded binary to the upgrades directory.
+2) Move the newly downloaded binary to the upgrades directory.
 ```
 mv ./bcnad ${HOME}/.bcna/cosmovisor/upgrades/wakeandbake46.6/bin/
 ```
 > If you build the binary from the code source, move it to the same folder
 
-6) If you want to know if Cosmovisor handles the correct binary file, exec:
+3) If you want to know if Cosmovisor handles the correct binary file, exec:
 ```
 sudo service cosmovisor status
 ```
@@ -277,5 +264,6 @@ And check the path of the binary file.
     git checkout v2.0.1-rc2
     make build && make install 
 ```
+
 
  [_Some useful commands_](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/validator-guides/useful.md) to help you navigate the `bcnad` CLI
