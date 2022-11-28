@@ -16,6 +16,27 @@ We created a new testnet that follows the exact upgrade cycle as the current Mai
 * `innuendo-3` (with `quicksilverd` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
 * `axelar-testnet-lisbon-3` (with `axelard` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
 
+## P2P Network INFO
+In the next section you will find the params for P2P and a *step by step* guide with a StateSync script ([Step by step guide](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/tree/main/instructions/bitcanna-dev-5#running-a-validator-on-bitcanna-dev-5))
+
+#### Seed server
+* `9f74dd2aba4acfb2c4206e178125eb8bca7bc877@144.91.89.66:26656`
+
+#### Persistent peers
+* `59fb9efed9c923f41a4b7dfec3889d4a018e850e@212.227.151.143:26656`
+* `20ca909b49106aacbf516ba28fa8a2409f825a82@212.227.151.106:26656`
+
+
+#### Genesis file
+* [Link to Genesis file](https://raw.githubusercontent.com/BitCannaGlobal/testnet-bcna-cosmos/main/instructions/bitcanna-dev-5/genesis.json)
+
+#### Binary / upgrades table
+
+| Upgrade Date | Upgrade Height | Binary Path |
+| -------- | -------- | -------- |
+| 14th Nov 2022     | 765.273     | [v2.0.1-rc1](https://github.com/BitCannaGlobal/bcna/releases/download/v2.0.1-rc1/bcna_linux_amd64.tar.gz)    |
+| 28th Nov 2022     | 1.032.049     | [v2.0.1-rc2](https://github.com/BitCannaGlobal/bcna/releases/download/v2.0.1-rc2/bcna_linux_amd64.tar.gz)    |
+
 ## Running a validator on **bitcanna-dev-5**
 * Before you start, you want to ensure your system is updated.  Besides other utilities you can install `jq` which is a utility to read and navigate JSON files and output.
     ```
