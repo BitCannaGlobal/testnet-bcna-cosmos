@@ -1,18 +1,20 @@
 # Devnet-5: Setup up your validator and join *bitcanna-dev-5*
 
-> IMPORTANT NOTE: If you participated in previous BitCanna testnets,  delete the bitcanna folders and start a fresh new installation:
+> IMPORTANT NOTE: If you participated in previous BitCanna testnets (OR StateSync scripts for this Devnet fails),  delete the bitcanna folders and start a fresh new installation:
 > 
 > ```sudo service bcnad stop``` 
 > 
 > `rm -rf ~/.bcna && sudo rm $(which bcnad)`
+>
+> If StateSync script fails you need also to delete the downloaded binary `rm ./bcnad`
 
-## Target of this DevNet (outdated...)
-We created a new testnet that follows the exact upgrade cycle as the current Mainnet. In this devnet the participants can join the chain from version v.1.4.2 codename `strangeBuddheads`, using our statesync script. We will prepare to upgrade to the newest version of the software, v1.5.3-rc1 codename `TrichomeMonster-ICA`, which includes the ***InterChain Accounts module***.
+## Target of this DevNet.
+We created a new testnet that follows the exact upgrade cycle as the current Mainnet. In this devnet the participants can join the chain from version v.2.0.1-rc codename `wakeandbake`, using our statesync script. We will prepare to upgrade to the newest version of the software, v2.0.1-rc2 codename `wakeandbakev46.6`, which includes the last improvements and bug fixing at Cosmos SDK and Tendermint.
 
 ### We are going to work in three new testnets: 
-* bitcanna-dev-5 (with `bcnad` current version ~~v.1.4.2, which we will update later~~ v1.5.3-rc1 [upgrade here](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/tree/main/instructions/bitcanna-dev-5#upgrade-instructions-to-v151) )
-* innuendo-1 (with `quicksilverd` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
-* axelar-lisbon (with `axelard` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
+* `bitcanna-dev-5`
+* `innuendo-3` (with `quicksilverd` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
+* `axelar-testnet-lisbon-3` (with `axelard` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
 
 ## Running a validator on **bitcanna-dev-5**
 * Before you start, you want to ensure your system is updated.  Besides other utilities you can install `jq` which is a utility to read and navigate JSON files and output.
@@ -146,11 +148,11 @@ Another **IMPORTANT** but **optional** action is backup your Validator_priv_key:
     rm validator_key.tar.gz
    ```
    This will create a GPG encrypted file with both key files.
-##
 
-## UPGRADE INSTRUCTIONS FOR `wakeandbake46.6 v2.0.1-rc2` ON NOVEMBER 28TH
 
-## Governance proposal: halt-height `1.032.049`
+# Upgrade instructions for `wakeandbake46.6 v2.0.1-rc2`
+
+## Governance proposal: halt-height `1.032.049` ~ on November 28th 16:00h CET - 15:00h UTC
 
 https://testnet.ping.pub/bitcanna/gov/10
 
