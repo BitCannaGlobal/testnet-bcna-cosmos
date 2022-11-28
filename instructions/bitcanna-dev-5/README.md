@@ -1,18 +1,20 @@
 # Devnet-5: Setup up your validator and join *bitcanna-dev-5*
 
-> IMPORTANT NOTE: If you participated in previous BitCanna testnets,  delete the bitcanna folders and start a fresh new installation:
+> IMPORTANT NOTE: If you participated in previous BitCanna testnets (OR StateSync scripts for this Devnet fails),  delete the bitcanna folders and start a fresh new installation:
 > 
 > ```sudo service bcnad stop``` 
 > 
 > `rm -rf ~/.bcna && sudo rm $(which bcnad)`
+>
+> If StateSync script fails you need also to delete the downloaded binary `rm ./bcnad`
 
-## Target of this DevNet (outdated...)
-We created a new testnet that follows the exact upgrade cycle as the current Mainnet. In this devnet the participants can join the chain from version v.1.4.2 codename `strangeBuddheads`, using our statesync script. We will prepare to upgrade to the newest version of the software, v1.5.3-rc1 codename `TrichomeMonster-ICA`, which includes the ***InterChain Accounts module***.
+## Target of this DevNet.
+We created a new testnet that follows the exact upgrade cycle as the current Mainnet. In this devnet the participants can join the chain from version v.2.0.1-rc codename `wakeandbake`, using our statesync script. We will prepare to upgrade to the newest version of the software, v2.0.1-rc2 codename `wakeandbakev46.6`, which includes the last improvements and bug fixing at Cosmos SDK and Tendermint.
 
 ### We are going to work in three new testnets: 
-* bitcanna-dev-5 (with `bcnad` current version ~~v.1.4.2, which we will update later~~ v1.5.3-rc1 [upgrade here](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/tree/main/instructions/bitcanna-dev-5#upgrade-instructions-to-v151) )
-* innuendo-1 (with `quicksilverd` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
-* axelar-lisbon (with `axelard` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
+* `bitcanna-dev-5`
+* `innuendo-3` (with `quicksilverd` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
+* `axelar-testnet-lisbon-3` (with `axelard` current version binary) YOU DON'T NEED TO RUN THIS CHAIN.
 
 ## Running a validator on **bitcanna-dev-5**
 * Before you start, you want to ensure your system is updated.  Besides other utilities you can install `jq` which is a utility to read and navigate JSON files and output.
@@ -146,9 +148,113 @@ Another **IMPORTANT** but **optional** action is backup your Validator_priv_key:
     rm validator_key.tar.gz
    ```
    This will create a GPG encrypted file with both key files.
-##
 
-### UPGRADE INSTRUCTIONS TO v1.5.1
-- https://hackmd.io/OfAoExSqQFeABhKGaEywdw
+
+# Upgrade instructions for `wakeandbake46.6 v2.0.1-rc2`
+
+## Governance proposal: halt-height `1.032.049` ~ on November 28th 16:00h CET - 15:00h UTC
+
+https://testnet.ping.pub/bitcanna/gov/10
+
+## Attended (manual) upgrade.
+
+This section of the guide shows how to perform a **manual** update of the binaries after a governance proposal has been approved for a chain update.
+1) Stop your bcnad service **after you see this** in your logs `ERR UPGRADE "wakeandbake46.6" NEEDED at height: 1.032.049`
+```
+sudo service bcnad stop
+```
+2) Download the binary [or compile it from the source](#If-you-want-to-build-from-the-source)
+```
+cd ~
+rm -f ./bcnad && rm -f ./bcna_linux_amd64.tar.gz # clean the previous downloads
+wget -nc https://github.com/BitCannaGlobal/bcna/releases/download/v2.0.1-rc2/bcna_linux_amd64.tar.gz
+```
+3) Check the sha256sum. 
+```
+sha256sum bcna_linux_amd64.tar.gz
+```
+> It must return: `a424ad37b301578370bce58134c78891798c9c0b519ec09954054184a2a868e1`
+
+4) Verify that the version is `v2.0.1-rc2`
+```
+tar zxvf  bcna_linux_amd64.tar.gz
+rm bcna_linux_amd64.tar.gz
+./bcnad version
+```
+5) Move the new binary to your machine's PATH and overwrite the previous version
+```
+sudo mv bcnad $(which bcnad)   #copy&paste don't replace anything
+```
+> If you know the exact destination you could also run: 
+```
+sudo mv bcnad /usr/local/bin/ #or wherever you have it
+```
+6) Start the bcnad service
+```
+sudo service bcnad start
+```
+
+Of course, if you are familiar with the Cosmos environment, you can keep the daemon running while you are compiling/downloading and later make the upgrade in one command: 
+```
+sudo service bcnad stop && sudo mv bcnad $(which bcnad) && sudo service bcnad start
+```
+7) Ensure that everything is OK by checking the logs 
+```
+sudo journalctl -fu bcnad -o cat
+```
+
+## Unattended (Cosmovisor) upgrade. 
+This section of the guide shows how to perform a **automated** upgrade of the binaries after a governance proposal has been approved for a chain update.
+
+For detailed instructions about setting up Cosmovisor from scratch, check this [guide](https://hackmd.io/jsJCqEyJSHKVOFKjScn3rw).
+
+This guide shows how to download the binary. If you want to build the binary from the source, detailed instructions can be found in the [README](https://github.com/BitCannaGlobal/bcna/blob/main/README.md) of our GitHub (`git checkout v2.0.1-rc2`)
+
+### Step 1. Setup Cosmovisor folder
+1) Create new directory
+```
+mkdir -p ${HOME}/.bcna/cosmovisor/upgrades/wakeandbake46.6/bin
+```
+
+2) Download the current version `2.0.1-rc2`.
+```
+cd ~
+rm -f bcna_linux_amd64.tar.gz
+wget -nc https://github.com/BitCannaGlobal/bcna/releases/download/v2.0.1-rc2/bcna_linux_amd64.tar.gz
+```
+3) Check the sha256sum.
+```
+sha256sum ./bcna_linux_amd64.tar.gz
+```
+> It must return: `a424ad37b301578370bce58134c78891798c9c0b519ec09954054184a2a868e1`
+
+4) Verify that the version is:`2.0.1-rc2`
+```
+rm -rf ./bcnad
+tar zxvf  bcna_linux_amd64.tar.gz
+rm bcna_linux_amd64.tar.gz
+./bcnad version
+```
+5) Move the newly downloaded binary to the upgrades directory.
+```
+mv ./bcnad ${HOME}/.bcna/cosmovisor/upgrades/wakeandbake46.6/bin/
+```
+> If you build the binary from the code source, move it to the same folder
+
+6) If you want to know if Cosmovisor handles the correct binary file, exec:
+```
+sudo service cosmovisor status
+```
+And check the path of the binary file.
+
+## If you want to build from the source
+
+ If you want to build the binary from the source, detailed instructions can be found in the [README](https://github.com/BitCannaGlobal/bcna/blob/main/README.md) of our GitHub:
+```
+    git clone https://github.com/BitCannaGlobal/bcna.git
+    cd bcna
+    git checkout v2.0.1-rc2
+    make build && make install 
+```
 
  [_Some useful commands_](https://github.com/BitCannaGlobal/testnet-bcna-cosmos/blob/main/instructions/public-testnet/validator-guides/useful.md) to help you navigate the `bcnad` CLI
